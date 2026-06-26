@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BGS12WN6E6329XTSA1
+D RF Switch ICs Y
+K
+F https://www.mouser.ca/datasheet/2/196/Infineon_BGS12WN6_DataSheet_v02_05_EN-3360659.pdf
+$ENDCMP
+#
+#End Doc Library

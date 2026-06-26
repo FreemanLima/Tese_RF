@@ -5,6 +5,252 @@
 	(uuid "076dc5cd-406b-4946-8ecf-b008a690dad8")
 	(paper "A3")
 	(lib_symbols
+		(symbol "BGS12WN6E6329XTSA1:BGS12WN6E6329XTSA1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "IC"
+				(at 24.13 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "BGS12WN6E6329XTSA1"
+				(at 24.13 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "BGS12WN6E6329XTSA1"
+				(at 24.13 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.ca/datasheet/2/196/Infineon_BGS12WN6_DataSheet_v02_05_EN-3360659.pdf"
+				(at 24.13 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "RF Switch ICs Y"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "0.4"
+				(at 24.13 -394.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "726-BGS12WN6E6329XTS"
+				(at 24.13 -494.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BGS12WN6E6329XTSA1?qs=mELouGlnn3dQkhOAI%252B1UhQ%3D%3D"
+				(at 24.13 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Infineon"
+				(at 24.13 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "BGS12WN6E6329XTSA1"
+				(at 24.13 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "BGS12WN6E6329XTSA1_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 22.86 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "RF2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "RF1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -5.08 180)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -2.54 180)
+					(length 5.08)
+					(name "RFIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 0 180)
+					(length 5.08)
+					(name "CTRL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x01"
 			(pin_names
 				(offset 1.016)
@@ -2646,771 +2892,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "RF_Switch:ADG918BRM"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -10.16 11.43 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "ADG918BRM"
-				(at 1.27 11.43 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
-				(at 0 -11.43 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADG918_919.pdf"
-				(at -1.27 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "SPDT DC-4GHz absorbative switch, 43dB isolation at 1GHz, MSOP-8"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "RF Mux SPDT switch CMOS LVTTL"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "MSOP*3x3mm*P0.65mm*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "ADG918BRM_0_0"
-				(rectangle
-					(start -10.16 10.16)
-					(end 10.16 -10.16)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.318 -1.524) (xy -4.318 -3.556) (xy -2.54 -2.54) (xy -4.318 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.318 -2.54) (xy -4.826 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -3.81 2.54)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 2.54) (xy -5.588 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.794 0) (xy -3.81 0) (xy -3.81 5.08) (xy -2.794 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.286 -2.54)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 5.08) (xy -1.27 4.318)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 3.81) (xy -1.27 3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy -1.27 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 -0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -1.27 -2.54)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -2.54) (xy -2.032 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0.762 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 5.08) (xy 5.588 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy 5.588 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 -2.54) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.286 0.508)
-					(mid 2.792 0)
-					(end 2.286 -0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 0.508) (xy 2.286 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.556 -2.54) (xy 2.794 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "50"
-					(at 2.286 -5.715 900)
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(text "50"
-					(at 3.81 -5.715 900)
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(symbol "ADG918BRM_0_1"
-				(circle
-					(center -2.54 5.08)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.54 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.286 5.08) (xy -0.254 5.842)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.286 0) (xy 0.127 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 5.08)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 1.778 -4.572)
-					(end 2.794 -6.858)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.286 5.08)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -0.508) (xy 2.286 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.286 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -2.032) (xy 2.667 -3.429)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.286 -3.302)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -3.556) (xy 2.286 -4.572)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -6.858) (xy 2.286 -7.874) (xy 1.778 -7.874) (xy 2.286 -8.636) (xy 2.794 -7.874) (xy 2.286 -7.874)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.302 -4.572)
-					(end 4.318 -6.858)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 3.81 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 3.81 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 3.81 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -2.032) (xy 4.572 -3.302)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 3.81 -3.302)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -3.556) (xy 3.81 -4.572)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -6.858) (xy 3.81 -7.874) (xy 3.302 -7.874) (xy 3.81 -8.636) (xy 4.318 -7.874) (xy 3.81 -7.874)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "ADG918BRM_1_1"
-				(pin power_in line
-					(at 0 12.7 270)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 -2.54 0)
-					(length 2.54)
-					(name "CTRL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -12.7 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 2.54 0)
-					(length 2.54)
-					(name "RFC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 0 180)
-					(length 2.54)
-					(name "RF2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -12.7 90)
-					(length 2.54)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -12.7 90)
-					(length 2.54)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 5.08 180)
-					(length 2.54)
-					(name "RF1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GNDA"
 			(power global)
 			(pin_numbers
@@ -4047,19 +3528,6 @@
 		)
 	)
 	(rectangle
-		(start 290.83 72.39)
-		(end 400.05 133.35)
-		(stroke
-			(width 0.254)
-			(type default)
-			(color 255 0 26 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "07c1c134-c1bc-42ba-8784-ee68e0d1cb2e")
-	)
-	(rectangle
 		(start 236.22 24.13)
 		(end 283.21 60.96)
 		(stroke
@@ -4121,7 +3589,7 @@
 	)
 	(rectangle
 		(start 180.34 71.12)
-		(end 401.32 251.46)
+		(end 285.75 251.46)
 		(stroke
 			(width 0)
 			(type default)
@@ -4197,7 +3665,7 @@
 	)
 	(text "Having an RF Switch doesnt make much sense,\nseria melhor so ter antenas individuais\n"
 		(exclude_from_sim no)
-		(at 315.214 75.692 0)
+		(at 235.204 238.506 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4312,22 +3780,10 @@
 		(uuid "14ade1b2-d86b-48bb-9e4e-63df18414b45")
 	)
 	(junction
-		(at 342.9 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "15f6d1b3-215a-4029-a28d-1882938f10eb")
-	)
-	(junction
 		(at 133.35 198.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1996402c-c0c4-4d6a-b677-572c35191a05")
-	)
-	(junction
-		(at 342.9 194.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2078147a-3ad2-47a0-966e-694a295acff8")
 	)
 	(junction
 		(at 137.16 119.38)
@@ -4372,12 +3828,6 @@
 		(uuid "5749c20d-035c-4fc8-9a48-25d8b958256a")
 	)
 	(junction
-		(at 342.9 181.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "59222211-e747-4f89-ac0a-ea9abf349a9e")
-	)
-	(junction
 		(at 308.61 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4414,22 +3864,10 @@
 		(uuid "682f791c-cc3b-475a-86f2-fe88765a84bc")
 	)
 	(junction
-		(at 242.57 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7e607796-ac4d-4676-a283-6361eb7eb341")
-	)
-	(junction
 		(at 269.24 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "815acb17-6ceb-4352-a9ec-fe2a14d28150")
-	)
-	(junction
-		(at 242.57 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "82e4c7c6-a88e-49eb-8e7e-af912d7e84e7")
 	)
 	(junction
 		(at 127 83.82)
@@ -4468,28 +3906,10 @@
 		(uuid "9db1f846-e20e-42da-b8c9-ce832b885dd4")
 	)
 	(junction
-		(at 342.9 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9e215694-b4eb-49f2-90b3-107f30b992df")
-	)
-	(junction
 		(at 330.2 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a6463901-15f9-4423-aaea-415c71ed134e")
-	)
-	(junction
-		(at 342.9 234.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a94e2bd3-c5af-4b09-8de9-b467b3d1f3d7")
-	)
-	(junction
-		(at 242.57 181.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a9c3443f-38a0-4038-9ed4-7af3e82836d3")
 	)
 	(junction
 		(at 132.08 119.38)
@@ -4502,12 +3922,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae9c3c07-3a24-4a52-8788-273c72ec7d18")
-	)
-	(junction
-		(at 342.9 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "be78b25e-f7aa-4e4f-a4f2-056febec750f")
 	)
 	(junction
 		(at 129.54 83.82)
@@ -4532,12 +3946,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d21869d6-dcd0-419e-9204-f69f54e99eb4")
-	)
-	(junction
-		(at 242.57 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d6e66d85-dff8-49a7-b310-a5cc9e948399")
 	)
 	(junction
 		(at 133.35 151.13)
@@ -4607,16 +4015,6 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 110.49) (xy 342.9 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "015f57cb-9add-4bb1-8d0e-00562cf72ec3")
-	)
-	(wire
-		(pts
 			(xy 330.2 52.07) (xy 330.2 53.34)
 		)
 		(stroke
@@ -4637,33 +4035,13 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 128.27) (xy 326.39 128.27)
+			(xy 241.3 102.87) (xy 241.3 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "04ea258c-2045-4ad2-be11-751af572bfc0")
-	)
-	(wire
-		(pts
-			(xy 326.39 194.31) (xy 342.9 194.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09246b65-229a-4d19-83db-89c84e13fa63")
-	)
-	(wire
-		(pts
-			(xy 246.38 151.13) (xy 205.74 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09317773-c004-47b0-818c-d100618125bf")
+		(uuid "04d94482-6943-4f1f-be62-a0c43fb42891")
 	)
 	(wire
 		(pts
@@ -4674,16 +4052,6 @@
 			(type default)
 		)
 		(uuid "0a988d23-cb7c-4353-8258-307fd2d564f2")
-	)
-	(wire
-		(pts
-			(xy 213.36 107.95) (xy 205.74 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0afdd7fa-17db-4452-968b-34578617d8bc")
 	)
 	(wire
 		(pts
@@ -4707,7 +4075,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 167.64) (xy 205.74 167.64)
+			(xy 203.2 133.35) (xy 195.58 133.35)
 		)
 		(stroke
 			(width 0)
@@ -4734,16 +4102,6 @@
 			(type default)
 		)
 		(uuid "0f8a4c18-2fd3-45a0-86b9-61110b4849ef")
-	)
-	(wire
-		(pts
-			(xy 259.08 114.3) (xy 259.08 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "119018ef-b33b-42a9-a008-437fcfe6ccb1")
 	)
 	(wire
 		(pts
@@ -4777,13 +4135,13 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 96.52) (xy 306.07 96.52)
+			(xy 203.2 175.26) (xy 195.58 175.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "18a83b94-7a37-40a6-8efb-93352d515b1f")
+		(uuid "186620fd-b81e-4f49-85aa-2fffaa171695")
 	)
 	(wire
 		(pts
@@ -4797,36 +4155,6 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 101.6) (xy 246.38 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19b8506f-04fd-4729-8698-83f2f548a61d")
-	)
-	(wire
-		(pts
-			(xy 326.39 100.33) (xy 326.39 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a4fecb5-19b4-4610-95a1-e0128afc1c3e")
-	)
-	(wire
-		(pts
-			(xy 242.57 165.1) (xy 242.57 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ae932ca-b6a8-4fa7-8cf5-38644373e7cf")
-	)
-	(wire
-		(pts
 			(xy 330.2 33.02) (xy 330.2 34.29)
 		)
 		(stroke
@@ -4834,16 +4162,6 @@
 			(type default)
 		)
 		(uuid "1b43e9b7-c753-492f-8b40-e14a5dd9e0c8")
-	)
-	(wire
-		(pts
-			(xy 238.76 165.1) (xy 242.57 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b4e1646-1b81-412c-b4b9-1b079806ca7a")
 	)
 	(wire
 		(pts
@@ -4897,23 +4215,13 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 156.21) (xy 246.38 156.21)
+			(xy 241.3 123.19) (xy 241.3 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "21aedc24-343a-44cb-96be-72ba94c708da")
-	)
-	(wire
-		(pts
-			(xy 342.9 218.44) (xy 342.9 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21bccce3-4fc8-44ac-acbf-a42362181e04")
+		(uuid "2213e4ee-d02d-4dde-9e28-a7cf42e97684")
 	)
 	(wire
 		(pts
@@ -4924,6 +4232,16 @@
 			(type default)
 		)
 		(uuid "22c76d48-0231-4aa1-be1f-1d53df77ff3e")
+	)
+	(wire
+		(pts
+			(xy 198.12 113.03) (xy 203.2 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23301a2a-8a60-4ae5-9a4a-d8c1dc289d1c")
 	)
 	(wire
 		(pts
@@ -4957,13 +4275,13 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 151.13) (xy 306.07 151.13)
+			(xy 203.2 149.86) (xy 195.58 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "285435ea-6af3-470d-a06f-c9dc69c5dba6")
+		(uuid "2a918f50-beb1-48e2-b703-cf550e65e1bc")
 	)
 	(wire
 		(pts
@@ -4977,26 +4295,6 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 168.91) (xy 259.08 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c10c315-c9bd-4cc5-b6ec-208030cd01db")
-	)
-	(wire
-		(pts
-			(xy 259.08 140.97) (xy 259.08 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d2f7c44-771f-4d06-9be7-f93970d18538")
-	)
-	(wire
-		(pts
 			(xy 154.94 114.3) (xy 158.75 114.3)
 		)
 		(stroke
@@ -5007,7 +4305,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 241.3) (xy 234.95 241.3)
+			(xy 256.54 215.9) (xy 259.08 215.9)
 		)
 		(stroke
 			(width 0)
@@ -5027,23 +4325,13 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 181.61) (xy 326.39 180.34)
+			(xy 203.2 195.58) (xy 195.58 195.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2f88636f-fe0e-49f7-ab79-7563576ca5af")
-	)
-	(wire
-		(pts
-			(xy 313.69 220.98) (xy 306.07 220.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30b31060-7484-46bc-bb20-e2bd1d358485")
+		(uuid "302acc7c-8204-4256-becb-e7addd556360")
 	)
 	(wire
 		(pts
@@ -5054,16 +4342,6 @@
 			(type default)
 		)
 		(uuid "31198537-5936-4aea-84ba-5b16bc056285")
-	)
-	(wire
-		(pts
-			(xy 372.11 99.06) (xy 381 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35c768ec-ec5a-450d-9fed-58eec710273e")
 	)
 	(wire
 		(pts
@@ -5097,16 +4375,6 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 140.97) (xy 359.41 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37b01814-c0f3-4260-96e1-ddcd7a7bbe73")
-	)
-	(wire
-		(pts
 			(xy 340.36 45.72) (xy 340.36 52.07)
 		)
 		(stroke
@@ -5114,6 +4382,16 @@
 			(type default)
 		)
 		(uuid "37d82bf2-2e85-43f5-b0ee-0dab6b0547de")
+	)
+	(wire
+		(pts
+			(xy 231.14 147.32) (xy 231.14 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c4da4d6-1e8e-4c25-8a81-3e76aed1a273")
 	)
 	(wire
 		(pts
@@ -5147,16 +4425,6 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 154.94) (xy 326.39 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40a1ce35-ddf5-4cc1-a6d5-2cae12eef596")
-	)
-	(wire
-		(pts
 			(xy 379.73 45.72) (xy 379.73 52.07)
 		)
 		(stroke
@@ -5164,36 +4432,6 @@
 			(type default)
 		)
 		(uuid "41ee2350-dbb3-4c3e-ad2d-4a5fd114aefa")
-	)
-	(wire
-		(pts
-			(xy 313.69 162.56) (xy 306.07 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43284339-5abc-4506-bdba-e83b6d31c204")
-	)
-	(wire
-		(pts
-			(xy 359.41 80.01) (xy 359.41 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "441ed6f5-bc56-44c0-abec-54899977db0f")
-	)
-	(wire
-		(pts
-			(xy 226.06 154.94) (xy 226.06 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44639c5c-cbca-4cb5-b31d-c17ca0a96047")
 	)
 	(wire
 		(pts
@@ -5217,6 +4455,26 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 170.18) (xy 195.58 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48c6b8e4-1ae3-4968-afc2-180365c82c8b")
+	)
+	(wire
+		(pts
+			(xy 231.14 187.96) (xy 231.14 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49f9cb5c-14d1-4e6e-9c71-b4005c76bc70")
+	)
+	(wire
+		(pts
 			(xy 107.95 158.75) (xy 107.95 166.37)
 		)
 		(stroke
@@ -5237,16 +4495,6 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 208.28) (xy 326.39 194.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b87c171-5452-43af-9a8a-cca028d06d86")
-	)
-	(wire
-		(pts
 			(xy 116.84 198.12) (xy 107.95 198.12)
 		)
 		(stroke
@@ -5257,43 +4505,13 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 162.56) (xy 205.74 162.56)
+			(xy 203.2 128.27) (xy 195.58 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4d53afac-7750-457a-9b99-d3b579d126f6")
-	)
-	(wire
-		(pts
-			(xy 242.57 110.49) (xy 242.57 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4de6f776-94e8-47b1-baf0-220db5409780")
-	)
-	(wire
-		(pts
-			(xy 259.08 181.61) (xy 242.57 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f3566ca-022c-495b-80d0-29f53fbe3db1")
-	)
-	(wire
-		(pts
-			(xy 342.9 181.61) (xy 326.39 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51a1c77b-c873-4002-b743-5edfd8fb4341")
 	)
 	(wire
 		(pts
@@ -5307,16 +4525,6 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 153.67) (xy 378.46 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55532b75-cadf-4521-91db-c1c71a600a26")
-	)
-	(wire
-		(pts
 			(xy 251.46 38.1) (xy 251.46 40.64)
 		)
 		(stroke
@@ -5327,13 +4535,13 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 204.47) (xy 306.07 204.47)
+			(xy 231.14 105.41) (xy 231.14 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "55fa678b-2710-4015-869a-c03f268f997f")
+		(uuid "57167165-053b-478a-9994-e7dfa1014d40")
 	)
 	(wire
 		(pts
@@ -5357,16 +4565,6 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 140.97) (xy 359.41 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59ccde93-ecf5-4ab1-9bda-bda51499bdd8")
-	)
-	(wire
-		(pts
 			(xy 365.76 52.07) (xy 379.73 52.07)
 		)
 		(stroke
@@ -5387,13 +4585,13 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 167.64) (xy 306.07 167.64)
+			(xy 231.14 152.4) (xy 241.3 152.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5e952f42-5777-43f9-afa9-c09ae685b46a")
+		(uuid "607e5065-511f-4a00-b8e2-cb492fd9059c")
 	)
 	(wire
 		(pts
@@ -5407,13 +4605,13 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 168.91) (xy 359.41 181.61)
+			(xy 203.2 154.94) (xy 195.58 154.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "617feab9-a6e4-46fd-8434-814a67d36de3")
+		(uuid "61d757db-143a-4949-a7c2-1f66b0dfa68a")
 	)
 	(wire
 		(pts
@@ -5447,16 +4645,6 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 218.44) (xy 342.9 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64a794c4-620b-4fcf-9624-82d71790f175")
-	)
-	(wire
-		(pts
 			(xy 107.95 245.11) (xy 107.95 252.73)
 		)
 		(stroke
@@ -5474,36 +4662,6 @@
 			(type default)
 		)
 		(uuid "65464aed-df0e-4e68-a3d7-9ba18f955966")
-	)
-	(wire
-		(pts
-			(xy 238.76 110.49) (xy 242.57 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "686fc637-f630-4da8-93d2-18591505ef33")
-	)
-	(wire
-		(pts
-			(xy 226.06 140.97) (xy 242.57 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69360288-009e-4ddc-9f62-6bd2c18f3114")
-	)
-	(wire
-		(pts
-			(xy 313.69 113.03) (xy 306.07 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a79d71a-58a5-494b-97cd-d9ef4dc8f21e")
 	)
 	(wire
 		(pts
@@ -5567,13 +4725,13 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 114.3) (xy 359.41 128.27)
+			(xy 203.2 190.5) (xy 195.58 190.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7599d477-a72a-4657-b746-e740297ffb8d")
+		(uuid "72c3c32e-87c5-4547-99cb-5e1f4fda70f4")
 	)
 	(wire
 		(pts
@@ -5597,6 +4755,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 185.42) (xy 241.3 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7631bc31-a5cf-4359-a5c4-6c82b825d4b2")
+	)
+	(wire
+		(pts
 			(xy 92.71 96.52) (xy 99.06 96.52)
 		)
 		(stroke
@@ -5614,16 +4782,6 @@
 			(type default)
 		)
 		(uuid "79276c8c-c735-476d-8fed-c005c3ad6c01")
-	)
-	(wire
-		(pts
-			(xy 242.57 140.97) (xy 259.08 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7981c498-884c-4f72-8cea-5d17e16380be")
 	)
 	(wire
 		(pts
@@ -5647,26 +4805,6 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 128.27) (xy 242.57 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c1ba6f8-4202-4365-8bc4-527736b71446")
-	)
-	(wire
-		(pts
-			(xy 342.9 234.95) (xy 326.39 234.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7dd0a363-435b-4005-8116-899a107a8c33")
-	)
-	(wire
-		(pts
 			(xy 379.73 38.1) (xy 379.73 34.29)
 		)
 		(stroke
@@ -5674,6 +4812,26 @@
 			(type default)
 		)
 		(uuid "7e1eca92-bdc5-4306-8b67-a89a0bed00af")
+	)
+	(wire
+		(pts
+			(xy 231.14 125.73) (xy 231.14 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ee9b86f-5d2d-4385-9b85-6e5510b0509b")
+	)
+	(wire
+		(pts
+			(xy 231.14 193.04) (xy 241.3 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f631bd5-d2d6-457b-8877-b03b30c65e97")
 	)
 	(wire
 		(pts
@@ -5697,6 +4855,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 130.81) (xy 241.3 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80bca32e-ba4d-408d-b57a-9fbe33b8563a")
+	)
+	(wire
+		(pts
 			(xy 116.84 213.36) (xy 120.65 213.36)
 		)
 		(stroke
@@ -5704,16 +4872,6 @@
 			(type default)
 		)
 		(uuid "80d11d2b-542f-4ac0-95c3-ff299c5550f1")
-	)
-	(wire
-		(pts
-			(xy 359.41 181.61) (xy 342.9 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81e4fe9b-f733-467e-9dc1-c67718015545")
 	)
 	(wire
 		(pts
@@ -5747,6 +4905,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 167.64) (xy 231.14 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89d42d41-a5a4-4677-8dbf-7c7d07627155")
+	)
+	(wire
+		(pts
 			(xy 120.65 173.99) (xy 120.65 175.26)
 		)
 		(stroke
@@ -5754,16 +4922,6 @@
 			(type default)
 		)
 		(uuid "8a414af1-8cd6-440e-8483-33e7da89e573")
-	)
-	(wire
-		(pts
-			(xy 359.41 234.95) (xy 342.9 234.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8cd6af6e-9641-47a0-a428-c84c5ae5a991")
 	)
 	(wire
 		(pts
@@ -5797,16 +4955,6 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 153.67) (xy 278.13 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90c7b072-a1a2-4e34-aedc-293813fcac61")
-	)
-	(wire
-		(pts
 			(xy 92.71 101.6) (xy 99.06 101.6)
 		)
 		(stroke
@@ -5814,46 +4962,6 @@
 			(type default)
 		)
 		(uuid "92f07877-d1ca-4758-83f2-8f3f7c2fac43")
-	)
-	(wire
-		(pts
-			(xy 326.39 234.95) (xy 326.39 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "936a7965-f22a-4eb4-9fd5-019bd9119367")
-	)
-	(wire
-		(pts
-			(xy 342.9 209.55) (xy 346.71 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "955117ab-94b9-4353-a24f-5ded0ebee307")
-	)
-	(wire
-		(pts
-			(xy 342.9 194.31) (xy 359.41 194.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "957dbf8d-3d77-43fe-b744-ff8abeb01a4f")
-	)
-	(wire
-		(pts
-			(xy 339.09 165.1) (xy 342.9 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "979cd565-f500-44f0-9738-72c124bd0f4e")
 	)
 	(wire
 		(pts
@@ -5907,46 +5015,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 128.27) (xy 226.06 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d0ea8f2-d06c-48e8-bb4f-ec5e9059b3f0")
-	)
-	(wire
-		(pts
-			(xy 242.57 80.01) (xy 259.08 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ff8c7dd-e2bf-4d81-9205-14c83e05dbac")
-	)
-	(wire
-		(pts
-			(xy 342.9 156.21) (xy 346.71 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0ef5765-a15d-4a31-bcdd-6dda6dc9f3ee")
-	)
-	(wire
-		(pts
-			(xy 326.39 80.01) (xy 342.9 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a173738e-eb71-4777-b363-d63ffe90fb59")
-	)
-	(wire
-		(pts
 			(xy 330.2 34.29) (xy 330.2 38.1)
 		)
 		(stroke
@@ -5987,26 +5055,6 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 128.27) (xy 226.06 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6edcc52-aa8a-4478-a0fb-a68302dae9cb")
-	)
-	(wire
-		(pts
-			(xy 226.06 100.33) (xy 226.06 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7bae103-412c-43bf-a821-d58d434dcf6a")
-	)
-	(wire
-		(pts
 			(xy 74.93 104.14) (xy 74.93 106.68)
 		)
 		(stroke
@@ -6017,36 +5065,6 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 107.95) (xy 306.07 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8db7acd-f9d3-42f4-9fcb-286ce38b1e5b")
-	)
-	(wire
-		(pts
-			(xy 342.9 165.1) (xy 342.9 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8e70b25-9e92-4cc4-8f66-4522d7576f19")
-	)
-	(wire
-		(pts
-			(xy 242.57 77.47) (xy 242.57 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a98bd419-1842-4530-9059-5dfb7ddcb23f")
-	)
-	(wire
-		(pts
 			(xy 251.46 52.07) (xy 260.35 52.07)
 		)
 		(stroke
@@ -6054,26 +5072,6 @@
 			(type default)
 		)
 		(uuid "ac7b809b-0dd6-4f5b-980f-1c2058effedb")
-	)
-	(wire
-		(pts
-			(xy 226.06 181.61) (xy 226.06 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "add1059a-4741-45bf-8fa9-a4e54ee091d7")
-	)
-	(wire
-		(pts
-			(xy 359.41 128.27) (xy 342.9 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aec5b10d-ff18-4ce6-8c61-5b9b9e312341")
 	)
 	(wire
 		(pts
@@ -6097,23 +5095,13 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 222.25) (xy 359.41 234.95)
+			(xy 231.14 172.72) (xy 241.3 172.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b4a0a096-244f-4563-b2d9-b18753897e6c")
-	)
-	(wire
-		(pts
-			(xy 259.08 80.01) (xy 259.08 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b730f56a-cc19-4644-b7da-7776ac8b86ae")
+		(uuid "b8d2da65-c762-4efc-80f5-346986e05ac6")
 	)
 	(wire
 		(pts
@@ -6124,16 +5112,6 @@
 			(type default)
 		)
 		(uuid "b91af139-c2f6-4a52-be93-48480a1a153a")
-	)
-	(wire
-		(pts
-			(xy 271.78 99.06) (xy 278.13 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b983711c-ef2c-4a27-b777-8fcd929a3695")
 	)
 	(wire
 		(pts
@@ -6154,36 +5132,6 @@
 			(type default)
 		)
 		(uuid "ba77dfc1-9420-4d3a-9540-1db84258ff55")
-	)
-	(wire
-		(pts
-			(xy 226.06 80.01) (xy 242.57 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc4bd5aa-f129-4a18-aaab-3b29a727efff")
-	)
-	(wire
-		(pts
-			(xy 326.39 140.97) (xy 342.9 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf6320fb-52fa-4fe5-afa6-6d9b0de2e5f4")
-	)
-	(wire
-		(pts
-			(xy 342.9 80.01) (xy 359.41 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1a22740-cd62-42df-9ed8-185e0957dcd2")
 	)
 	(wire
 		(pts
@@ -6237,16 +5185,6 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 128.27) (xy 326.39 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfd2c315-cc55-48ff-bb56-ef815486c13a")
-	)
-	(wire
-		(pts
 			(xy 133.35 222.25) (xy 133.35 220.98)
 		)
 		(stroke
@@ -6254,16 +5192,6 @@
 			(type default)
 		)
 		(uuid "d526255b-7312-4220-a6d9-9c7f804ebf95")
-	)
-	(wire
-		(pts
-			(xy 342.9 101.6) (xy 346.71 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5d2fb15-e7e2-4eab-bb1f-d64c87baf08f")
 	)
 	(wire
 		(pts
@@ -6304,16 +5232,6 @@
 			(type default)
 		)
 		(uuid "db024d98-5244-4f16-9b15-6bbffae96ab8")
-	)
-	(wire
-		(pts
-			(xy 313.69 215.9) (xy 306.07 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db0e45ec-67a0-46f0-9440-e381d0d1d509")
 	)
 	(wire
 		(pts
@@ -6387,6 +5305,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 107.95) (xy 203.2 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5eb0937-05d4-444b-bca5-7b7455806465")
+	)
+	(wire
+		(pts
 			(xy 137.16 119.38) (xy 139.7 119.38)
 		)
 		(stroke
@@ -6417,6 +5345,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 144.78) (xy 241.3 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea3043ef-d4f1-4d17-b329-0244cfcac92d")
+	)
+	(wire
+		(pts
 			(xy 124.46 198.12) (xy 133.35 198.12)
 		)
 		(stroke
@@ -6437,13 +5375,13 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 207.01) (xy 378.46 207.01)
+			(xy 241.3 165.1) (xy 241.3 167.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "edfddd53-0c49-4f2b-b5b7-2cd52d4d2854")
+		(uuid "eecf25f8-3590-44f1-8b98-7205a26b8325")
 	)
 	(wire
 		(pts
@@ -6454,16 +5392,6 @@
 			(type default)
 		)
 		(uuid "f09bfdcc-8950-4cca-9188-ef04b4f44853")
-	)
-	(wire
-		(pts
-			(xy 213.36 113.03) (xy 205.74 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f173e00d-6899-4742-8675-483cec8bed2e")
 	)
 	(wire
 		(pts
@@ -6487,16 +5415,6 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 96.52) (xy 205.74 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2c4151a-b15e-47be-9ae2-a32635e0a07d")
-	)
-	(wire
-		(pts
 			(xy 351.79 52.07) (xy 340.36 52.07)
 		)
 		(stroke
@@ -6507,33 +5425,13 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 110.49) (xy 342.9 101.6)
+			(xy 231.14 110.49) (xy 241.3 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f7bac9d0-7526-4fa8-82d0-be26f8fa40eb")
-	)
-	(wire
-		(pts
-			(xy 359.41 194.31) (xy 359.41 196.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcb7365e-aab4-47b0-b9d8-04c9388f25cd")
-	)
-	(wire
-		(pts
-			(xy 242.57 181.61) (xy 226.06 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe0df1fb-cf4f-4aaa-8b03-3c1604cc4ec1")
+		(uuid "fffcc07f-aa53-4aa9-b955-2d897b4fa391")
 	)
 	(image
 		(at 40.64 92.71)
@@ -38247,7 +37145,7 @@
 		)
 	)
 	(label "IN_Matching"
-		(at 278.13 99.06 0)
+		(at 269.24 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38257,7 +37155,7 @@
 		(uuid "04014876-c767-43c0-a6cf-06c3370d5497")
 	)
 	(label "OUT_Matching"
-		(at 278.13 153.67 0)
+		(at 269.24 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38265,6 +37163,26 @@
 			(justify left bottom)
 		)
 		(uuid "0d1c7561-52c6-48ea-b54f-5faa4c2f002b")
+	)
+	(label "L101_1"
+		(at 269.24 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1062ac6a-8771-406f-ab26-d46124bd589d")
+	)
+	(label "433MHz_In"
+		(at 198.12 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "111c8311-8686-49d0-91b0-bcc2ddec111f")
 	)
 	(label "OSC1"
 		(at 99.06 109.22 180)
@@ -38286,26 +37204,6 @@
 		)
 		(uuid "162dd5d4-7414-4d54-8427-189905109080")
 	)
-	(label "L_915_2"
-		(at 306.07 220.98 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "164c2d35-bcd3-4e67-a2b7-61cf523eb155")
-	)
-	(label "C_RFS_10"
-		(at 339.09 223.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1676f0dc-16e7-469e-a44c-84cad55559e8")
-	)
 	(label "C_RFS_9"
 		(at 240.03 224.79 0)
 		(effects
@@ -38317,7 +37215,7 @@
 		(uuid "1892be04-40a2-4c86-9d5e-b84c7ce8b2a2")
 	)
 	(label "315Mhz_Out"
-		(at 205.74 151.13 180)
+		(at 241.3 123.19 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38335,16 +37233,6 @@
 			(justify left bottom)
 		)
 		(uuid "25ecb047-c6b0-4a8d-9fb8-8837b83aeecf")
-	)
-	(label "L_433_1"
-		(at 306.07 162.56 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "265f87fe-d74e-4fb2-9557-90c8f0716298")
 	)
 	(label "L101_2"
 		(at 154.94 106.68 0)
@@ -38366,6 +37254,26 @@
 		)
 		(uuid "28f4ebcc-d9f7-4f52-961d-a13f32eeff90")
 	)
+	(label "C_RFS_10"
+		(at 231.14 187.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2a03341c-d099-4362-8a55-3df1553cd9eb")
+	)
+	(label "C_RFS_4"
+		(at 231.14 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2d22211f-824e-47c5-a394-7f2c39f2573f")
+	)
 	(label "C_RFS_4"
 		(at 240.03 212.09 0)
 		(effects
@@ -38375,26 +37283,6 @@
 			(justify left bottom)
 		)
 		(uuid "2e24b4a8-a248-4787-ad85-ce255ac868da")
-	)
-	(label "L_315_1"
-		(at 306.07 151.13 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2fa21d6d-d309-4841-a564-47ef9587c792")
-	)
-	(label "L101_1"
-		(at 378.46 153.67 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "369f9a7a-1a13-41e2-b3b8-34ab67304e1e")
 	)
 	(label "C_RFS_6"
 		(at 240.03 217.17 0)
@@ -38416,6 +37304,16 @@
 		)
 		(uuid "3beb6e21-e977-4af8-b553-39e810640144")
 	)
+	(label "L_915_2"
+		(at 195.58 195.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3cdb28ca-a8dd-4d76-a384-287f9fa98718")
+	)
 	(label "OSC2"
 		(at 274.32 38.1 0)
 		(effects
@@ -38436,18 +37334,8 @@
 		)
 		(uuid "3e41da18-cc18-4a65-9a85-013771ae8da1")
 	)
-	(label "To_Ant"
-		(at 381 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3e911f09-57df-45ca-a0fa-a1f4145b6b09")
-	)
 	(label "C_RFS_3"
-		(at 271.78 158.75 0)
+		(at 269.24 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38455,6 +37343,16 @@
 			(justify left bottom)
 		)
 		(uuid "40495041-2899-4b1b-a6da-c53ab757b022")
+	)
+	(label "L_315_2"
+		(at 241.3 185.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "412dd873-2bb1-4a4f-8b2f-3661fc2d17cb")
 	)
 	(label "315MHz_In"
 		(at 139.7 151.13 0)
@@ -38465,26 +37363,6 @@
 			(justify left bottom)
 		)
 		(uuid "42a431a5-7580-437e-a756-1294749fa426")
-	)
-	(label "315MHz_In"
-		(at 205.74 96.52 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "44ead5db-c995-4f6e-940e-0ca603e8e0b5")
-	)
-	(label "To_Ant_315Mhz"
-		(at 306.07 96.52 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4b489060-cd41-45b8-8d13-27ac9495089b")
 	)
 	(label "To_Ant_433Mhz"
 		(at 104.14 205.74 180)
@@ -38506,16 +37384,6 @@
 		)
 		(uuid "51ed07bf-9c7d-4659-b84a-7f97c37e3e88")
 	)
-	(label "C_RFS_9"
-		(at 372.11 212.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "53c808e1-b623-484f-a694-144b33664dd0")
-	)
 	(label "C_RFS_5"
 		(at 240.03 214.63 0)
 		(effects
@@ -38526,15 +37394,15 @@
 		)
 		(uuid "599353e0-ea78-470f-8db3-dd98bd471dd9")
 	)
-	(label "To_Ant_433Mhz"
-		(at 306.07 107.95 180)
+	(label "315MHz_In"
+		(at 241.3 102.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "6c14b20b-e27f-4bf1-9b83-3dfc588e7051")
+		(uuid "5cb3e7df-4118-42e5-8a2f-7e11ce367faf")
 	)
 	(label "C_RFS_8"
 		(at 240.03 222.25 0)
@@ -38546,6 +37414,26 @@
 		)
 		(uuid "6d25ae74-92c3-4730-9c5a-d6424f9d3a2e")
 	)
+	(label "L_315_1"
+		(at 241.3 165.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6e9a11a9-40fc-43e1-9be4-b7947ca6eeaf")
+	)
+	(label "L_433_1"
+		(at 195.58 170.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "75a75625-c293-461d-b059-3483994b69f3")
+	)
 	(label "L_433_2"
 		(at 160.02 213.36 0)
 		(effects
@@ -38555,6 +37443,16 @@
 			(justify left bottom)
 		)
 		(uuid "77716668-8d5f-44be-ae78-69f54375ae37")
+	)
+	(label "To_Ant_433Mhz"
+		(at 195.58 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7999ba3f-8edc-4886-86b1-4fa598a0adce")
 	)
 	(label "L_315_2"
 		(at 160.02 166.37 0)
@@ -38566,25 +37464,35 @@
 		)
 		(uuid "7b953825-9e62-4d83-86ff-9e328e8e83d5")
 	)
-	(label "To_Ant_915Mhz"
-		(at 306.07 113.03 180)
+	(label "915MHz_In"
+		(at 198.12 113.03 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "860fa78f-d77a-44bf-8855-193b7fd26163")
+		(uuid "8490c8e2-7bad-4bc0-9f4e-8959e7ca3268")
 	)
-	(label "L_433_2"
-		(at 306.07 215.9 180)
+	(label "To_Ant_915Mhz"
+		(at 195.58 154.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "8b67d328-2ccb-4190-afc3-867aac34c028")
+		(uuid "8a36887c-898b-443b-a917-b2cd55bebc0a")
+	)
+	(label "C_RFS_6"
+		(at 231.14 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8d21ddbc-ed0d-494a-bc6a-7c32e07f7e8b")
 	)
 	(label "To_Ant_315Mhz"
 		(at 104.14 158.75 180)
@@ -38595,6 +37503,26 @@
 			(justify right bottom)
 		)
 		(uuid "903b2e80-dce1-4540-b02f-74e34af7b6b5")
+	)
+	(label "L_433_2"
+		(at 195.58 190.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "90f69421-9210-4a5f-83cd-3a7f879a774d")
+	)
+	(label "L_915_1"
+		(at 195.58 175.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "94fe6912-e37f-4d82-95c0-0d28270df155")
 	)
 	(label "915Mhz_Out"
 		(at 139.7 260.35 0)
@@ -38616,16 +37544,6 @@
 		)
 		(uuid "96fad4bd-74c2-4ae1-a740-dd64dff4d419")
 	)
-	(label "C_RFS_4"
-		(at 238.76 170.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "988f0930-30c4-422b-a866-ee4283efa0ae")
-	)
 	(label "L101_1"
 		(at 154.94 101.6 0)
 		(effects
@@ -38636,25 +37554,15 @@
 		)
 		(uuid "9bb47820-17c4-4d65-9950-07ff42a0098c")
 	)
-	(label "C_RFS_8"
-		(at 339.09 170.18 0)
+	(label "C_RFS_7"
+		(at 269.24 167.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "9e9f7503-f24b-4f8e-a9fa-631c9bbdf46d")
-	)
-	(label "C_RFS_5"
-		(at 372.11 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a0a0d46c-4d20-407f-b242-a2dabcd68633")
+		(uuid "a0f904c1-c824-4c8e-98cd-9aae3efccd3d")
 	)
 	(label "OSC2"
 		(at 99.06 111.76 180)
@@ -38686,38 +37594,18 @@
 		)
 		(uuid "ac024546-f8ec-4954-8531-2c901b4906d6")
 	)
-	(label "C_RFS_7"
-		(at 372.11 158.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "af43e459-742e-45d5-a065-f8ab7da4fdb2")
-	)
 	(label "L101_2"
-		(at 378.46 207.01 0)
+		(at 269.24 190.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "b4e80cdf-e778-4e60-abbf-118dfd45dbe3")
-	)
-	(label "L_315_2"
-		(at 306.07 204.47 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b650bad9-4a0a-4507-891e-1ffab6a317fa")
+		(uuid "b179cb37-2e4c-47c9-803e-ea885a35e114")
 	)
 	(label "To_Ant"
-		(at 232.41 241.3 180)
+		(at 256.54 215.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38737,7 +37625,7 @@
 		(uuid "bfd15cb2-dc7c-42f3-a48d-2eea47360d6a")
 	)
 	(label "915Mhz_Out"
-		(at 205.74 167.64 180)
+		(at 195.58 133.35 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38745,6 +37633,26 @@
 			(justify right bottom)
 		)
 		(uuid "c141ed21-1de2-42b9-88db-137a72c8e0b3")
+	)
+	(label "C_RFS_5"
+		(at 269.24 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c675ac79-d9d6-442b-bd3c-c0ba6b88a4c2")
+	)
+	(label "To_Ant"
+		(at 269.24 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c9e7b965-0f0e-4834-a77d-f325bca1b66f")
 	)
 	(label "C_RFS_7"
 		(at 240.03 219.71 0)
@@ -38756,6 +37664,16 @@
 		)
 		(uuid "cc0c76ff-5f31-4cb2-818f-efa741c44bf1")
 	)
+	(label "C_RFS_8"
+		(at 231.14 167.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cfeceff3-bd5b-4f03-b257-8b4772a52f7d")
+	)
 	(label "OUT_Matching"
 		(at 154.94 96.52 0)
 		(effects
@@ -38765,16 +37683,6 @@
 			(justify left bottom)
 		)
 		(uuid "d3c8d87f-733d-42bf-8c98-2ae9c7e3d0c9")
-	)
-	(label "L_915_1"
-		(at 306.07 167.64 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "dabcdcb1-48db-4161-bc09-d96e84016486")
 	)
 	(label "433MHz_In"
 		(at 139.7 198.12 0)
@@ -38797,7 +37705,7 @@
 		(uuid "e71e5abc-dad4-4107-8fce-5c4f9dbc1946")
 	)
 	(label "C_RFS_1"
-		(at 271.78 104.14 0)
+		(at 269.24 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38805,16 +37713,6 @@
 			(justify left bottom)
 		)
 		(uuid "e7893920-2f52-41be-9f5c-2f5b6b786f5c")
-	)
-	(label "433MHz_In"
-		(at 205.74 107.95 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e7a12439-7934-408f-b706-cfb2692c38bd")
 	)
 	(label "OSC1"
 		(at 245.11 38.1 180)
@@ -38826,18 +37724,28 @@
 		)
 		(uuid "ea9be4d0-adcc-40f2-90a1-e6ee30742939")
 	)
-	(label "915MHz_In"
-		(at 205.74 113.03 180)
+	(label "To_Ant_315Mhz"
+		(at 241.3 144.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "f1c3fe3a-9f96-44c3-84de-41df19b309fa")
+		(uuid "ec56eac2-a71c-42d0-8161-3a824803376f")
+	)
+	(label "C_RFS_9"
+		(at 269.24 187.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "efb819cf-1a1c-46d8-b10c-5c6636aac89a")
 	)
 	(label "C_RFS_2"
-		(at 238.76 115.57 0)
+		(at 231.14 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38845,16 +37753,6 @@
 			(justify left bottom)
 		)
 		(uuid "f2889ac9-1727-47a5-8848-eef8809e142f")
-	)
-	(label "C_RFS_6"
-		(at 339.09 115.57 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f55067fc-6c24-4117-88af-b903c45674fd")
 	)
 	(label "L_915_1"
 		(at 160.02 245.11 0)
@@ -38877,7 +37775,7 @@
 		(uuid "fddccd47-c480-44b8-b244-ddb3798784a0")
 	)
 	(label "433Mhz_Out"
-		(at 205.74 162.56 180)
+		(at 195.58 128.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38887,9 +37785,8 @@
 		(uuid "fe752bf6-37c8-40fc-b951-3a95fab8f256")
 	)
 	(symbol
-		(lib_id "RF_Switch:ADG918BRM")
-		(at 326.39 167.64 0)
-		(mirror y)
+		(lib_id "BGS12WN6E6329XTSA1:BGS12WN6E6329XTSA1")
+		(at 241.3 147.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -38897,31 +37794,54 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "022830aa-40d7-4899-9b22-c257e4c81ed6")
-		(property "Reference" "U7"
-			(at 324.2467 152.4 0)
+		(fields_autoplaced yes)
+		(uuid "00907562-7070-419f-ace9-94231e222351")
+		(property "Reference" "IC6"
+			(at 255.27 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "ADG918BRM"
-			(at 324.2467 154.94 0)
+		(property "Value" "BGS12WN6E6329XTSA1"
+			(at 255.27 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
-			(at 326.39 179.07 0)
+		(property "Footprint" "Package_LGA:Infineon_PG-TSNP-6-10_0.7x1.1mm_0.7x1.1mm_P0.4mm"
+			(at 265.43 242.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/196/Infineon_BGS12WN6_DataSheet_v02_05_EN-3360659.pdf"
+			(at 265.43 342.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RF Switch ICs Y"
+			(at 241.3 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38931,8 +37851,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADG918_919.pdf"
-			(at 327.66 162.56 0)
+		(property "Height" "0.4"
+			(at 265.43 542.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38940,10 +37860,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Description" "SPDT DC-4GHz absorbative switch, 43dB isolation at 1GHz, MSOP-8"
-			(at 326.39 167.64 0)
+		(property "Mouser Part Number" "726-BGS12WN6E6329XTS"
+			(at 265.43 642.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38951,36 +37872,67 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(pin "7"
-			(uuid "6daa802b-9786-430d-8ce9-7ad41a9b6fc2")
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BGS12WN6E6329XTSA1?qs=mELouGlnn3dQkhOAI%252B1UhQ%3D%3D"
+			(at 265.43 742.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
 		)
-		(pin "4"
-			(uuid "18333652-bd3a-456f-b46f-9c98afe4d25d")
+		(property "Manufacturer_Name" "Infineon"
+			(at 265.43 842.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
 		)
-		(pin "3"
-			(uuid "40b1f5f9-cacf-4926-ab33-ad24c96b8162")
-		)
-		(pin "2"
-			(uuid "dcbca2d4-1d58-4712-998d-d179d83d1edd")
-		)
-		(pin "8"
-			(uuid "30a33b5e-bd4f-4fd7-8505-40f81b1451ce")
+		(property "Manufacturer_Part_Number" "BGS12WN6E6329XTSA1"
+			(at 265.43 942.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
 		)
 		(pin "5"
-			(uuid "3892b510-f01f-4081-8ea1-e5e41953f7dc")
+			(uuid "878bec6b-139a-4eee-a51f-85214ea98421")
 		)
 		(pin "1"
-			(uuid "71d4e50a-7559-4d3d-b606-36ceea9f6ef6")
+			(uuid "7dd62a02-c992-421d-a661-5b3566cf7c4c")
 		)
 		(pin "6"
-			(uuid "317a1d27-30c3-49f2-8efe-62ed0bf764e5")
+			(uuid "f3c9701d-3685-4a5e-a909-ace05ea9f0e6")
+		)
+		(pin "4"
+			(uuid "e0d00993-2b2a-4a48-bbcb-b52de566774a")
+		)
+		(pin "2"
+			(uuid "d74c5159-e54f-4f26-aa27-8c324e27d4b4")
+		)
+		(pin "3"
+			(uuid "883b7fc7-76ac-40da-abcc-55fed9068b86")
 		)
 		(instances
 			(project "Ai1_CC1000"
 				(path "/076dc5cd-406b-4946-8ecf-b008a690dad8"
-					(reference "U7")
+					(reference "IC6")
 					(unit 1)
 				)
 			)
@@ -39144,6 +38096,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDA")
+		(at 203.2 172.72 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "085efd9c-51ff-4eab-b1df-fdf347d0a8d0")
+		(property "Reference" "#PWR038"
+			(at 196.85 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 199.39 172.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 203.2 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "678a9d02-cf46-4580-8ac3-1d53036e23b0")
+		)
+		(instances
+			(project "Ai1_CC1000"
+				(path "/076dc5cd-406b-4946-8ecf-b008a690dad8"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 133.35 170.18 0)
 		(unit 1)
@@ -39220,106 +38249,6 @@
 			(project "Ai1_CC1000"
 				(path "/076dc5cd-406b-4946-8ecf-b008a690dad8"
 					(reference "L41_0")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "RF_Switch:ADG918BRM")
-		(at 259.08 101.6 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0a33a4e8-dd8b-4284-902a-2805094995bf")
-		(property "Reference" "U2"
-			(at 256.9367 86.36 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ADG918BRM"
-			(at 256.9367 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
-			(at 259.08 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADG918_919.pdf"
-			(at 260.35 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "SPDT DC-4GHz absorbative switch, 43dB isolation at 1GHz, MSOP-8"
-			(at 259.08 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "7"
-			(uuid "45e7b052-e640-4444-be6a-1d85963a4bf1")
-		)
-		(pin "4"
-			(uuid "c4273af0-283d-494c-9c40-ebae5ef633e5")
-		)
-		(pin "3"
-			(uuid "2bb82795-ad54-4c8c-bfb2-453a82457501")
-		)
-		(pin "2"
-			(uuid "3f0b3aa9-df3c-4e89-9440-8a275219cea9")
-		)
-		(pin "8"
-			(uuid "45423c22-9013-4ade-add1-674d6746191f")
-		)
-		(pin "5"
-			(uuid "91127e80-cd6c-4446-b69b-6f7bc5564359")
-		)
-		(pin "1"
-			(uuid "f7284237-6078-45ff-8c8f-a3decf4a8601")
-		)
-		(pin "6"
-			(uuid "11f213be-dbcd-4f46-ae2a-b61f40f4ce9f")
-		)
-		(instances
-			(project "Ai1_CC1000"
-				(path "/076dc5cd-406b-4946-8ecf-b008a690dad8"
-					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -39482,6 +38411,160 @@
 			(project "Ai1_CC1000"
 				(path "/076dc5cd-406b-4946-8ecf-b008a690dad8"
 					(reference "C31_0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BGS12WN6E6329XTSA1:BGS12WN6E6329XTSA1")
+		(at 241.3 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f40e286-2a2d-48b8-9db6-3386918b7718")
+		(property "Reference" "IC4"
+			(at 255.27 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BGS12WN6E6329XTSA1"
+			(at 255.27 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_LGA:Infineon_PG-TSNP-6-10_0.7x1.1mm_0.7x1.1mm_P0.4mm"
+			(at 265.43 220.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/196/Infineon_BGS12WN6_DataSheet_v02_05_EN-3360659.pdf"
+			(at 265.43 320.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RF Switch ICs Y"
+			(at 241.3 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.4"
+			(at 265.43 520.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "726-BGS12WN6E6329XTS"
+			(at 265.43 620.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BGS12WN6E6329XTSA1?qs=mELouGlnn3dQkhOAI%252B1UhQ%3D%3D"
+			(at 265.43 720.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Infineon"
+			(at 265.43 820.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BGS12WN6E6329XTSA1"
+			(at 265.43 920.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5"
+			(uuid "90f422b8-bd96-4d2c-9e4b-bcfad91e9163")
+		)
+		(pin "1"
+			(uuid "135ba4d8-1311-4cac-bc4f-8ba2b6a27ff5")
+		)
+		(pin "6"
+			(uuid "6b68fe0e-38b8-47af-a76b-382b42dbb99a")
+		)
+		(pin "4"
+			(uuid "3f3ecb41-3495-48e7-b154-d54c4eaddaa4")
+		)
+		(pin "2"
+			(uuid "49ca8158-c182-453e-a9ca-41c7e9e3f1df")
+		)
+		(pin "3"
+			(uuid "a9cefda3-b278-439c-bc55-e3ab7575f389")
+		)
+		(instances
+			(project "Ai1_CC1000"
+				(path "/076dc5cd-406b-4946-8ecf-b008a690dad8"
+					(reference "IC4")
 					(unit 1)
 				)
 			)
@@ -39970,8 +39053,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDA")
-		(at 242.57 181.61 0)
+		(lib_id "power:VDDA")
+		(at 269.24 152.4 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -39979,9 +39062,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "2c9f8d2d-2fac-4d42-bf32-43d4059f09cc")
-		(property "Reference" "#PWR019"
-			(at 242.57 187.96 0)
+		(fields_autoplaced yes)
+		(uuid "1f18c8ae-7959-46de-9987-93f387852736")
+		(property "Reference" "#PWR037"
+			(at 265.43 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39991,18 +39075,19 @@
 				)
 			)
 		)
-		(property "Value" "GNDA"
-			(at 242.57 185.42 0)
+		(property "Value" "VDDA"
+			(at 273.05 152.3999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 242.57 181.61 0)
+			(at 269.24 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40013,7 +39098,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 181.61 0)
+			(at 269.24 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40023,8 +39108,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 242.57 181.61 0)
+		(property "Description" "Power symbol creates a global label with name \"VDDA\""
+			(at 269.24 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40035,12 +39120,89 @@
 			)
 		)
 		(pin "1"
-			(uuid "fe6d94e1-e599-4964-930b-ffb5f8059545")
+			(uuid "3a257b59-b6f2-4e32-9b91-d6ea44c7d205")
 		)
 		(instances
 			(project "Ai1_CC1000"
 				(path "/076dc5cd-406b-4946-8ecf-b008a690dad8"
-					(reference "#PWR019")
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 203.2 152.4 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "26a8267a-ac92-4855-9322-91aade996608")
+		(property "Reference" "#PWR035"
+			(at 196.85 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 199.39 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 203.2 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f9768084-d21e-4aa4-a386-541d6deda992")
+		)
+		(instances
+			(project "Ai1_CC1000"
+				(path "/076dc5cd-406b-4946-8ecf-b008a690dad8"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -40204,106 +39366,6 @@
 		)
 	)
 	(symbol
-		(lib_id "RF_Switch:ADG918BRM")
-		(at 359.41 156.21 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "32447ae8-42f9-4d41-a95e-820f69607d23")
-		(property "Reference" "U9"
-			(at 357.2667 140.97 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ADG918BRM"
-			(at 357.2667 143.51 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
-			(at 359.41 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADG918_919.pdf"
-			(at 360.68 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "SPDT DC-4GHz absorbative switch, 43dB isolation at 1GHz, MSOP-8"
-			(at 359.41 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "7"
-			(uuid "4aac8314-e876-4c2d-8d19-a06141e4121c")
-		)
-		(pin "4"
-			(uuid "40c9ee15-4136-45ba-bdd2-911eb48c7415")
-		)
-		(pin "3"
-			(uuid "0da45e63-9883-46b5-873d-ecea7e432d8b")
-		)
-		(pin "2"
-			(uuid "b4a9134f-c60b-48fd-aa13-f3a5b930482c")
-		)
-		(pin "8"
-			(uuid "b5fc4bec-c5c5-4eac-b07b-3c82c8461a56")
-		)
-		(pin "5"
-			(uuid "edf51e44-ec78-4e0f-a2f7-538ab493cce5")
-		)
-		(pin "1"
-			(uuid "1c26eed5-91b8-4428-8e76-a31d2ad2b3d1")
-		)
-		(pin "6"
-			(uuid "d6483432-8e07-40a8-8362-4bbcf31cfe70")
-		)
-		(instances
-			(project "Ai1_CC1000"
-				(path "/076dc5cd-406b-4946-8ecf-b008a690dad8"
-					(reference "U9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 365.76 41.91 180)
 		(unit 1)
@@ -40380,84 +39442,6 @@
 			(project "Ai1_CC1000"
 				(path "/076dc5cd-406b-4946-8ecf-b008a690dad8"
 					(reference "C1_1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDDA")
-		(at 342.9 194.31 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3bea4ab5-edb8-4f6b-928d-516ff38516d5")
-		(property "Reference" "#PWR026"
-			(at 342.9 198.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VDDA"
-			(at 342.9 189.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 342.9 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 342.9 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDDA\""
-			(at 342.9 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "998ea044-58ac-497a-a6a7-a634904677c1")
-		)
-		(instances
-			(project "Ai1_CC1000"
-				(path "/076dc5cd-406b-4946-8ecf-b008a690dad8"
-					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -40546,85 +39530,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDA")
-		(at 242.57 128.27 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3faefab7-72da-485e-9c20-028b6bff8090")
-		(property "Reference" "#PWR017"
-			(at 242.57 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 242.57 132.08 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 242.57 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 242.57 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "faf1a65f-3c33-4ded-a996-d8b1ca72d608")
-		)
-		(instances
-			(project "Ai1_CC1000"
-				(path "/076dc5cd-406b-4946-8ecf-b008a690dad8"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Antenna_Shield")
-		(at 234.95 236.22 0)
+		(at 259.08 210.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -40635,7 +39542,7 @@
 		(fields_autoplaced yes)
 		(uuid "41d6aed1-b533-4d00-8cd3-c544362b8df2")
 		(property "Reference" "AE1"
-			(at 238.76 234.3149 0)
+			(at 262.89 208.9149 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -40646,7 +39553,7 @@
 			)
 		)
 		(property "Value" "Antenna_Shield"
-			(at 238.76 236.8549 0)
+			(at 262.89 211.4549 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -40657,7 +39564,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Coaxial:SMA_Molex_73251-1153_EdgeMount_Horizontal"
-			(at 234.95 233.68 0)
+			(at 259.08 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40668,7 +39575,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 233.68 0)
+			(at 259.08 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40679,7 +39586,7 @@
 			)
 		)
 		(property "Description" "Antenna with extra pin for shielding"
-			(at 234.95 236.22 0)
+			(at 259.08 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40699,6 +39606,160 @@
 			(project "Ai1_CC1000"
 				(path "/076dc5cd-406b-4946-8ecf-b008a690dad8"
 					(reference "AE1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 241.3 128.27 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "43649a72-25f7-424c-91fb-66a737ebe488")
+		(property "Reference" "#PWR030"
+			(at 234.95 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 237.49 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 241.3 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1314187a-a257-492a-87f6-556f9dccc1a3")
+		)
+		(instances
+			(project "Ai1_CC1000"
+				(path "/076dc5cd-406b-4946-8ecf-b008a690dad8"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 203.2 110.49 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "441b5464-4688-4a8e-ba9e-d6be67ed07bb")
+		(property "Reference" "#PWR032"
+			(at 196.85 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 199.39 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 203.2 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1a08cc36-7d00-4684-a789-8f4ed7d97332")
+		)
+		(instances
+			(project "Ai1_CC1000"
+				(path "/076dc5cd-406b-4946-8ecf-b008a690dad8"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -40869,8 +39930,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDA")
-		(at 342.9 181.61 0)
+		(lib_id "BGS12WN6E6329XTSA1:BGS12WN6E6329XTSA1")
+		(at 203.2 190.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -40878,9 +39939,54 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "460d06ab-27c2-49e7-ac6c-b0dc57c943e8")
-		(property "Reference" "#PWR025"
-			(at 342.9 187.96 0)
+		(fields_autoplaced yes)
+		(uuid "4685f2e2-1909-47ed-8880-35462255e4d0")
+		(property "Reference" "IC9"
+			(at 217.17 182.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BGS12WN6E6329XTSA1"
+			(at 217.17 185.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_LGA:Infineon_PG-TSNP-6-10_0.7x1.1mm_0.7x1.1mm_P0.4mm"
+			(at 227.33 285.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/196/Infineon_BGS12WN6_DataSheet_v02_05_EN-3360659.pdf"
+			(at 227.33 385.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RF Switch ICs Y"
+			(at 203.2 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40890,18 +39996,8 @@
 				)
 			)
 		)
-		(property "Value" "GNDA"
-			(at 342.9 185.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 342.9 181.61 0)
+		(property "Height" "0.4"
+			(at 227.33 585.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40909,10 +40005,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Datasheet" ""
-			(at 342.9 181.61 0)
+		(property "Mouser Part Number" "726-BGS12WN6E6329XTS"
+			(at 227.33 685.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40920,10 +40017,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 342.9 181.61 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BGS12WN6E6329XTSA1?qs=mELouGlnn3dQkhOAI%252B1UhQ%3D%3D"
+			(at 227.33 785.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40931,15 +40029,209 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
+		)
+		(property "Manufacturer_Name" "Infineon"
+			(at 227.33 885.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BGS12WN6E6329XTSA1"
+			(at 227.33 985.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5"
+			(uuid "2a4be363-505d-4cd0-813b-e7fd08de9699")
 		)
 		(pin "1"
-			(uuid "2fc9c60d-da51-4644-9f0c-3dac1132c408")
+			(uuid "471fc707-8792-4a8c-94f0-485ee7ce582d")
+		)
+		(pin "6"
+			(uuid "695c140a-41aa-45a8-8b95-12506bdf522c")
+		)
+		(pin "4"
+			(uuid "d178a299-1de9-4c7d-8660-af46f49a3019")
+		)
+		(pin "2"
+			(uuid "41fb71e4-38d4-4535-946e-70af6ca723ac")
+		)
+		(pin "3"
+			(uuid "b32683f7-c756-48aa-bd5a-c19b74ac718b")
 		)
 		(instances
 			(project "Ai1_CC1000"
 				(path "/076dc5cd-406b-4946-8ecf-b008a690dad8"
-					(reference "#PWR025")
+					(reference "IC9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BGS12WN6E6329XTSA1:BGS12WN6E6329XTSA1")
+		(at 241.3 187.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4771b9b9-b0be-47f7-89c9-050a5411a6db")
+		(property "Reference" "IC10"
+			(at 255.27 180.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BGS12WN6E6329XTSA1"
+			(at 255.27 182.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_LGA:Infineon_PG-TSNP-6-10_0.7x1.1mm_0.7x1.1mm_P0.4mm"
+			(at 265.43 282.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/196/Infineon_BGS12WN6_DataSheet_v02_05_EN-3360659.pdf"
+			(at 265.43 382.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RF Switch ICs Y"
+			(at 241.3 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.4"
+			(at 265.43 582.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "726-BGS12WN6E6329XTS"
+			(at 265.43 682.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BGS12WN6E6329XTSA1?qs=mELouGlnn3dQkhOAI%252B1UhQ%3D%3D"
+			(at 265.43 782.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Infineon"
+			(at 265.43 882.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BGS12WN6E6329XTSA1"
+			(at 265.43 982.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5"
+			(uuid "8c6e6897-c74a-403e-b7ba-6cb6bbb71f9d")
+		)
+		(pin "1"
+			(uuid "6a294af6-828a-4974-9ffb-d1829f06aaee")
+		)
+		(pin "6"
+			(uuid "1523efd7-e36f-404e-8044-1af9f44c1e5f")
+		)
+		(pin "4"
+			(uuid "2c2debe2-8298-45d8-96f5-b48bed90078c")
+		)
+		(pin "2"
+			(uuid "548742d3-fa10-4704-b5fd-70c94e4b4201")
+		)
+		(pin "3"
+			(uuid "a4c27ce3-9263-497e-97df-96704b832097")
+		)
+		(instances
+			(project "Ai1_CC1000"
+				(path "/076dc5cd-406b-4946-8ecf-b008a690dad8"
+					(reference "IC10")
 					(unit 1)
 				)
 			)
@@ -40947,7 +40239,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 237.49 241.3 0)
+		(at 261.62 215.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -40957,7 +40249,7 @@
 		(dnp no)
 		(uuid "4e91235f-924e-46c9-891b-7437d4483d34")
 		(property "Reference" "#PWR028"
-			(at 237.49 247.65 0)
+			(at 261.62 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40968,7 +40260,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 237.49 245.11 0)
+			(at 261.62 219.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -40978,7 +40270,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 237.49 241.3 0)
+			(at 261.62 215.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40989,7 +40281,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 241.3 0)
+			(at 261.62 215.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41000,7 +40292,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 237.49 241.3 0)
+			(at 261.62 215.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41262,6 +40554,160 @@
 		)
 	)
 	(symbol
+		(lib_id "BGS12WN6E6329XTSA1:BGS12WN6E6329XTSA1")
+		(at 203.2 149.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "582c55e2-dbeb-4837-b2c7-833810d0b6fe")
+		(property "Reference" "IC5"
+			(at 217.17 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BGS12WN6E6329XTSA1"
+			(at 217.17 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_LGA:Infineon_PG-TSNP-6-10_0.7x1.1mm_0.7x1.1mm_P0.4mm"
+			(at 227.33 244.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/196/Infineon_BGS12WN6_DataSheet_v02_05_EN-3360659.pdf"
+			(at 227.33 344.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RF Switch ICs Y"
+			(at 203.2 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.4"
+			(at 227.33 544.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "726-BGS12WN6E6329XTS"
+			(at 227.33 644.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BGS12WN6E6329XTSA1?qs=mELouGlnn3dQkhOAI%252B1UhQ%3D%3D"
+			(at 227.33 744.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Infineon"
+			(at 227.33 844.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BGS12WN6E6329XTSA1"
+			(at 227.33 944.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5"
+			(uuid "6b77df4c-9214-4082-924d-9a0ccd0f98b5")
+		)
+		(pin "1"
+			(uuid "a0872d1f-0cc8-4a03-b5e8-853fee9a7008")
+		)
+		(pin "6"
+			(uuid "c300dee0-3112-4ebf-951d-fa689e20ce50")
+		)
+		(pin "4"
+			(uuid "b0e1bc1b-c035-4e67-9d39-68549d339242")
+		)
+		(pin "2"
+			(uuid "52b9805c-2c8a-4e30-a74f-34b74a9226c8")
+		)
+		(pin "3"
+			(uuid "d0c8d6dd-a4c4-4990-8217-e8dfeda7ba8a")
+		)
+		(instances
+			(project "Ai1_CC1000"
+				(path "/076dc5cd-406b-4946-8ecf-b008a690dad8"
+					(reference "IC5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 116.84 119.38 90)
 		(unit 1)
@@ -41335,6 +40781,160 @@
 			(project "Ai1_CC1000"
 				(path "/076dc5cd-406b-4946-8ecf-b008a690dad8"
 					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BGS12WN6E6329XTSA1:BGS12WN6E6329XTSA1")
+		(at 203.2 128.27 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6171ab0e-4cd6-46d0-bb13-de8bb912e685")
+		(property "Reference" "IC3"
+			(at 217.17 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BGS12WN6E6329XTSA1"
+			(at 217.17 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_LGA:Infineon_PG-TSNP-6-10_0.7x1.1mm_0.7x1.1mm_P0.4mm"
+			(at 227.33 223.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/196/Infineon_BGS12WN6_DataSheet_v02_05_EN-3360659.pdf"
+			(at 227.33 323.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RF Switch ICs Y"
+			(at 203.2 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.4"
+			(at 227.33 523.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "726-BGS12WN6E6329XTS"
+			(at 227.33 623.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BGS12WN6E6329XTSA1?qs=mELouGlnn3dQkhOAI%252B1UhQ%3D%3D"
+			(at 227.33 723.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Infineon"
+			(at 227.33 823.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BGS12WN6E6329XTSA1"
+			(at 227.33 923.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5"
+			(uuid "13f5f9f3-6f52-4ebd-a238-d9456ee32897")
+		)
+		(pin "1"
+			(uuid "a1b92d01-969f-4581-8f61-3fdc49057885")
+		)
+		(pin "6"
+			(uuid "d4d0ef8a-121a-4de5-a5e7-035182d9d00e")
+		)
+		(pin "4"
+			(uuid "ed04a59f-02c2-4e4d-83ab-711c2d007f98")
+		)
+		(pin "2"
+			(uuid "6757fb68-c3d7-4fbb-a0b0-e97581b7e933")
+		)
+		(pin "3"
+			(uuid "ca394214-48b9-4c99-87a1-09fbd379a1f3")
+		)
+		(instances
+			(project "Ai1_CC1000"
+				(path "/076dc5cd-406b-4946-8ecf-b008a690dad8"
+					(reference "IC3")
 					(unit 1)
 				)
 			)
@@ -41420,6 +41020,83 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
+		(at 203.2 130.81 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "63f5ee60-f65d-4e3e-beeb-14ebd93aaa92")
+		(property "Reference" "#PWR019"
+			(at 196.85 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 199.39 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 203.2 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e92216a0-04ee-4776-b0cb-b7d1f732d7f5")
+		)
+		(instances
+			(project "Ai1_CC1000"
+				(path "/076dc5cd-406b-4946-8ecf-b008a690dad8"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
 		(at 124.46 121.92 0)
 		(unit 1)
 		(body_style 1)
@@ -41490,84 +41167,6 @@
 			(project "Ai1_CC1000"
 				(path "/076dc5cd-406b-4946-8ecf-b008a690dad8"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDDA")
-		(at 242.57 140.97 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "67f77af8-b9c9-4fcf-a886-b5d43f142c6e")
-		(property "Reference" "#PWR015"
-			(at 242.57 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VDDA"
-			(at 242.57 135.89 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 242.57 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDDA\""
-			(at 242.57 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6435ea72-8a7d-4cf0-b80f-81acb8c14eb7")
-		)
-		(instances
-			(project "Ai1_CC1000"
-				(path "/076dc5cd-406b-4946-8ecf-b008a690dad8"
-					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -41656,9 +41255,8 @@
 		)
 	)
 	(symbol
-		(lib_id "RF_Switch:ADG918BRM")
-		(at 326.39 220.98 0)
-		(mirror y)
+		(lib_id "power:GNDA")
+		(at 203.2 193.04 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -41666,31 +41264,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "6bbf85e4-ec83-456f-a5b5-a16b4ef84d70")
-		(property "Reference" "U10"
-			(at 324.2467 205.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ADG918BRM"
-			(at 324.2467 208.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
-			(at 326.39 232.41 0)
+		(uuid "6bfe5f75-ae27-4abc-9979-abe1664505f4")
+		(property "Reference" "#PWR041"
+			(at 196.85 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41700,8 +41276,18 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADG918_919.pdf"
-			(at 327.66 215.9 0)
+		(property "Value" "GNDA"
+			(at 199.39 193.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41711,8 +41297,8 @@
 				)
 			)
 		)
-		(property "Description" "SPDT DC-4GHz absorbative switch, 43dB isolation at 1GHz, MSOP-8"
-			(at 326.39 220.98 0)
+		(property "Datasheet" ""
+			(at 203.2 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41722,34 +41308,24 @@
 				)
 			)
 		)
-		(pin "7"
-			(uuid "9738bda3-3ead-40d5-aff4-9e8f6c6c1a89")
-		)
-		(pin "4"
-			(uuid "7dc24fd6-c8e7-4207-970b-58180f7cfc8e")
-		)
-		(pin "3"
-			(uuid "f0ee2fa7-9527-4d80-91a1-a2ebd68ee096")
-		)
-		(pin "2"
-			(uuid "f0cef3c6-915a-410c-b604-31d31b6cc512")
-		)
-		(pin "8"
-			(uuid "7152031f-1ecb-4ef3-91d3-1b70533d98e3")
-		)
-		(pin "5"
-			(uuid "3b5cb008-f122-4919-b868-ec4e4276f654")
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 203.2 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "5740f8e0-4ec1-4ed9-bfdd-6458c71fc562")
-		)
-		(pin "6"
-			(uuid "7daa94d6-f2cd-4319-b2d6-341a83d7a894")
+			(uuid "a2994c86-dcfd-4774-8322-311cd949b688")
 		)
 		(instances
 			(project "Ai1_CC1000"
 				(path "/076dc5cd-406b-4946-8ecf-b008a690dad8"
-					(reference "U10")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -41839,7 +41415,7 @@
 	)
 	(symbol
 		(lib_id "power:VDDA")
-		(at 342.9 80.01 0)
+		(at 231.14 154.94 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -41848,9 +41424,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "735d6a1d-8d2f-43af-832f-f73ee84d7f7b")
-		(property "Reference" "#PWR016"
-			(at 342.9 83.82 0)
+		(uuid "70e3aaa6-b189-4739-826f-bb01930bfb99")
+		(property "Reference" "#PWR017"
+			(at 227.33 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41861,17 +41437,18 @@
 			)
 		)
 		(property "Value" "VDDA"
-			(at 342.9 74.93 0)
+			(at 234.95 154.9399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 342.9 80.01 0)
+			(at 231.14 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41882,7 +41459,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 342.9 80.01 0)
+			(at 231.14 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41893,7 +41470,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDDA\""
-			(at 342.9 80.01 0)
+			(at 231.14 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41904,12 +41481,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "1798ef1d-1a68-43c8-b100-48ddf1cd40b1")
+			(uuid "3ec50883-f157-4871-a9e9-3e43420076aa")
 		)
 		(instances
 			(project "Ai1_CC1000"
 				(path "/076dc5cd-406b-4946-8ecf-b008a690dad8"
-					(reference "#PWR016")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -42488,6 +42065,239 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDDA")
+		(at 231.14 113.03 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ecf6281-ee63-4fea-8b0e-1353ccbd5674")
+		(property "Reference" "#PWR033"
+			(at 227.33 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDDA"
+			(at 234.95 113.0299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDDA\""
+			(at 231.14 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c58ddfd8-e1c7-4646-848e-a20807b4e4b8")
+		)
+		(instances
+			(project "Ai1_CC1000"
+				(path "/076dc5cd-406b-4946-8ecf-b008a690dad8"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BGS12WN6E6329XTSA1:BGS12WN6E6329XTSA1")
+		(at 241.3 105.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91383f74-d825-48d6-b461-201ac42df2c9")
+		(property "Reference" "IC2"
+			(at 255.27 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BGS12WN6E6329XTSA1"
+			(at 255.27 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_LGA:Infineon_PG-TSNP-6-10_0.7x1.1mm_0.7x1.1mm_P0.4mm"
+			(at 265.43 200.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/196/Infineon_BGS12WN6_DataSheet_v02_05_EN-3360659.pdf"
+			(at 265.43 300.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RF Switch ICs Y"
+			(at 241.3 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.4"
+			(at 265.43 500.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "726-BGS12WN6E6329XTS"
+			(at 265.43 600.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BGS12WN6E6329XTSA1?qs=mELouGlnn3dQkhOAI%252B1UhQ%3D%3D"
+			(at 265.43 700.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Infineon"
+			(at 265.43 800.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BGS12WN6E6329XTSA1"
+			(at 265.43 900.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5"
+			(uuid "924a432f-014a-4bed-a91e-2f3f81791a93")
+		)
+		(pin "1"
+			(uuid "c8540157-9594-4f61-82cd-289c0b8b580c")
+		)
+		(pin "6"
+			(uuid "eda3264b-feb4-4055-b7db-b25355ba2f0e")
+		)
+		(pin "4"
+			(uuid "0f8db67f-ae1b-4b4a-a45b-56c2f2956dc3")
+		)
+		(pin "2"
+			(uuid "f03da338-3390-4c6b-a7bc-a8a107f173e1")
+		)
+		(pin "3"
+			(uuid "42c793c1-80d5-46b9-8873-5675e7920b0a")
+		)
+		(instances
+			(project "Ai1_CC1000"
+				(path "/076dc5cd-406b-4946-8ecf-b008a690dad8"
+					(reference "IC2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Battery_Cell")
 		(at 340.36 43.18 0)
 		(unit 1)
@@ -42603,8 +42413,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VDDA")
-		(at 342.9 140.97 0)
+		(lib_id "power:GNDA")
+		(at 241.3 149.86 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -42612,10 +42422,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "957808f8-2a9f-4f13-9ad9-e24cacbe4142")
-		(property "Reference" "#PWR024"
-			(at 342.9 144.78 0)
+		(uuid "95aa2e81-aff4-4231-8e15-dc51abfae320")
+		(property "Reference" "#PWR036"
+			(at 234.95 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42625,8 +42434,8 @@
 				)
 			)
 		)
-		(property "Value" "VDDA"
-			(at 342.9 135.89 0)
+		(property "Value" "GNDA"
+			(at 237.49 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -42636,7 +42445,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 342.9 140.97 0)
+			(at 241.3 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42647,7 +42456,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 342.9 140.97 0)
+			(at 241.3 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42657,8 +42466,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VDDA\""
-			(at 342.9 140.97 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 241.3 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42669,12 +42478,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "eae0fcdc-1e52-42fc-95a3-b402ea3f5dfa")
+			(uuid "a28a1008-8e7d-4214-b8c0-29433520d4dd")
 		)
 		(instances
 			(project "Ai1_CC1000"
 				(path "/076dc5cd-406b-4946-8ecf-b008a690dad8"
-					(reference "#PWR024")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -42759,184 +42568,6 @@
 		)
 	)
 	(symbol
-		(lib_id "RF_Switch:ADG918BRM")
-		(at 259.08 156.21 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "97503f77-2b47-49ae-9183-fdc672036a93")
-		(property "Reference" "U5"
-			(at 256.9367 140.97 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ADG918BRM"
-			(at 256.9367 143.51 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
-			(at 259.08 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADG918_919.pdf"
-			(at 260.35 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "SPDT DC-4GHz absorbative switch, 43dB isolation at 1GHz, MSOP-8"
-			(at 259.08 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "7"
-			(uuid "4ce0d36a-1256-4ae2-a29a-9207ec390b29")
-		)
-		(pin "4"
-			(uuid "b31efd70-6980-44b0-af4c-cc0e65800d73")
-		)
-		(pin "3"
-			(uuid "59c18548-1f30-420f-89ee-223c536048cc")
-		)
-		(pin "2"
-			(uuid "44053b6c-db92-4ff6-a9d3-eb1aeb7e77ec")
-		)
-		(pin "8"
-			(uuid "3ad562fa-01a6-486e-82d2-ae3601ad5d12")
-		)
-		(pin "5"
-			(uuid "78cecfeb-9a29-44f1-9a0a-4b1737701434")
-		)
-		(pin "1"
-			(uuid "895f96a2-8d56-4df4-a9ab-c67ce27c72a5")
-		)
-		(pin "6"
-			(uuid "b5f87885-f12c-419f-98a2-60d0e26ae586")
-		)
-		(instances
-			(project "Ai1_CC1000"
-				(path "/076dc5cd-406b-4946-8ecf-b008a690dad8"
-					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDDA")
-		(at 242.57 77.47 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "995f2ae7-c603-497e-ba4d-703f6b64493a")
-		(property "Reference" "#PWR014"
-			(at 242.57 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VDDA"
-			(at 242.57 72.39 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 242.57 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDDA\""
-			(at 242.57 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2ab4f907-5931-4cc7-8f7b-4d0da2f07968")
-		)
-		(instances
-			(project "Ai1_CC1000"
-				(path "/076dc5cd-406b-4946-8ecf-b008a690dad8"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 113.03 213.36 90)
 		(unit 1)
@@ -43011,83 +42642,6 @@
 			(project "Ai1_CC1000"
 				(path "/076dc5cd-406b-4946-8ecf-b008a690dad8"
 					(reference "C42_1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDA")
-		(at 342.9 128.27 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9cf8245d-e71c-4a83-aa21-219a3cf28b26")
-		(property "Reference" "#PWR018"
-			(at 342.9 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 342.9 132.08 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 342.9 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 342.9 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 342.9 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a5265a36-e91e-4203-b8b9-87eba5d641c7")
-		)
-		(instances
-			(project "Ai1_CC1000"
-				(path "/076dc5cd-406b-4946-8ecf-b008a690dad8"
-					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -43291,6 +42845,162 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDA")
+		(at 241.3 170.18 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a2639962-25e4-49aa-a21a-606af182f394")
+		(property "Reference" "#PWR039"
+			(at 234.95 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 237.49 170.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 241.3 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "53afcb82-fc41-4e7b-bd92-7ede599bfeb0")
+		)
+		(instances
+			(project "Ai1_CC1000"
+				(path "/076dc5cd-406b-4946-8ecf-b008a690dad8"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDDA")
+		(at 231.14 133.35 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2c7bf18-d6cf-4a91-ac66-8cc51a03f28c")
+		(property "Reference" "#PWR015"
+			(at 227.33 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDDA"
+			(at 234.95 133.3499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDDA\""
+			(at 231.14 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "435249a3-301a-44e4-abbe-3d6d8a088d8d")
+		)
+		(instances
+			(project "Ai1_CC1000"
+				(path "/076dc5cd-406b-4946-8ecf-b008a690dad8"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDDA")
 		(at 340.36 33.02 0)
 		(unit 1)
@@ -43363,6 +43073,160 @@
 			(project "Ai1_CC1000"
 				(path "/076dc5cd-406b-4946-8ecf-b008a690dad8"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BGS12WN6E6329XTSA1:BGS12WN6E6329XTSA1")
+		(at 241.3 167.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a53a6272-8224-4c3c-9793-eac2ff5eff7e")
+		(property "Reference" "IC8"
+			(at 255.27 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BGS12WN6E6329XTSA1"
+			(at 255.27 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_LGA:Infineon_PG-TSNP-6-10_0.7x1.1mm_0.7x1.1mm_P0.4mm"
+			(at 265.43 262.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/196/Infineon_BGS12WN6_DataSheet_v02_05_EN-3360659.pdf"
+			(at 265.43 362.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RF Switch ICs Y"
+			(at 241.3 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.4"
+			(at 265.43 562.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "726-BGS12WN6E6329XTS"
+			(at 265.43 662.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BGS12WN6E6329XTSA1?qs=mELouGlnn3dQkhOAI%252B1UhQ%3D%3D"
+			(at 265.43 762.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Infineon"
+			(at 265.43 862.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BGS12WN6E6329XTSA1"
+			(at 265.43 962.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5"
+			(uuid "709e2622-63d9-4834-a2b4-a873fa5b3da6")
+		)
+		(pin "1"
+			(uuid "83931638-fa29-4fa9-b2b0-a7e60e4190c9")
+		)
+		(pin "6"
+			(uuid "2d1b6727-595e-40b1-8a8e-5c662e9a29b3")
+		)
+		(pin "4"
+			(uuid "a343d157-f3b0-4e3f-a84a-447cf08a11b2")
+		)
+		(pin "2"
+			(uuid "e1076cf7-b8a2-4987-a711-f28b76ab9029")
+		)
+		(pin "3"
+			(uuid "ce68ab01-2a19-4818-803a-0d0d41ce3a88")
+		)
+		(instances
+			(project "Ai1_CC1000"
+				(path "/076dc5cd-406b-4946-8ecf-b008a690dad8"
+					(reference "IC8")
 					(unit 1)
 				)
 			)
@@ -43443,6 +43307,83 @@
 			(project "Ai1_CC1000"
 				(path "/076dc5cd-406b-4946-8ecf-b008a690dad8"
 					(reference "C42_2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 241.3 107.95 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b09941c4-5f2a-4bd0-baf8-1cce222d6ebe")
+		(property "Reference" "#PWR031"
+			(at 234.95 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 237.49 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 241.3 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "00eaf1b0-feb3-4e67-bad2-ba872631ecf2")
+		)
+		(instances
+			(project "Ai1_CC1000"
+				(path "/076dc5cd-406b-4946-8ecf-b008a690dad8"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -43607,183 +43548,6 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 342.9 234.95 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bb52d8f3-a475-4f49-8d87-fc350ee1ad45")
-		(property "Reference" "#PWR027"
-			(at 342.9 241.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 342.9 238.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 342.9 234.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 342.9 234.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 342.9 234.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "699e5d5b-7a3b-4c9b-9297-e92f2cd55e8d")
-		)
-		(instances
-			(project "Ai1_CC1000"
-				(path "/076dc5cd-406b-4946-8ecf-b008a690dad8"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "RF_Switch:ADG918BRM")
-		(at 226.06 167.64 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bb711191-7b32-4689-9c62-4fcbf6914bcd")
-		(property "Reference" "U4"
-			(at 223.9167 152.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ADG918BRM"
-			(at 223.9167 154.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
-			(at 226.06 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADG918_919.pdf"
-			(at 227.33 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "SPDT DC-4GHz absorbative switch, 43dB isolation at 1GHz, MSOP-8"
-			(at 226.06 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "7"
-			(uuid "c971071f-9dc3-46a7-bc44-622f4112528d")
-		)
-		(pin "4"
-			(uuid "311b7eab-572c-412f-ad32-163514b13fcf")
-		)
-		(pin "3"
-			(uuid "4d86e90f-290c-4cae-9db6-5b7b40ca70ce")
-		)
-		(pin "2"
-			(uuid "a2d357f0-6a51-4127-9885-7eeffcdc4780")
-		)
-		(pin "8"
-			(uuid "6a53a523-3187-40cc-87cb-e7468dca705d")
-		)
-		(pin "5"
-			(uuid "1f678da1-ec71-4262-acea-e44e67055cae")
-		)
-		(pin "1"
-			(uuid "4754f43d-be73-42c9-96b9-39a7312529aa")
-		)
-		(pin "6"
-			(uuid "d298025f-2bb8-4e3a-af1b-9a5139b8f3c9")
-		)
-		(instances
-			(project "Ai1_CC1000"
-				(path "/076dc5cd-406b-4946-8ecf-b008a690dad8"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDA")
 		(at 158.75 127 0)
 		(unit 1)
 		(body_style 1)
@@ -43854,6 +43618,316 @@
 			(project "Ai1_CC1000"
 				(path "/076dc5cd-406b-4946-8ecf-b008a690dad8"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDDA")
+		(at 269.24 172.72 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0dc71c0-106d-4d49-a5bd-5d23242958a2")
+		(property "Reference" "#PWR040"
+			(at 265.43 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDDA"
+			(at 273.05 172.7199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 269.24 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDDA\""
+			(at 269.24 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "081eac9e-018a-4ded-8a4a-af978e0ecbfe")
+		)
+		(instances
+			(project "Ai1_CC1000"
+				(path "/076dc5cd-406b-4946-8ecf-b008a690dad8"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BGS12WN6E6329XTSA1:BGS12WN6E6329XTSA1")
+		(at 203.2 170.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2e6ff03-2dd0-47ff-87b7-67cd3621fad4")
+		(property "Reference" "IC7"
+			(at 217.17 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BGS12WN6E6329XTSA1"
+			(at 217.17 165.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_LGA:Infineon_PG-TSNP-6-10_0.7x1.1mm_0.7x1.1mm_P0.4mm"
+			(at 227.33 265.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/196/Infineon_BGS12WN6_DataSheet_v02_05_EN-3360659.pdf"
+			(at 227.33 365.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RF Switch ICs Y"
+			(at 203.2 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.4"
+			(at 227.33 565.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "726-BGS12WN6E6329XTS"
+			(at 227.33 665.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BGS12WN6E6329XTSA1?qs=mELouGlnn3dQkhOAI%252B1UhQ%3D%3D"
+			(at 227.33 765.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Infineon"
+			(at 227.33 865.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BGS12WN6E6329XTSA1"
+			(at 227.33 965.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5"
+			(uuid "c65ddd2f-8f58-4630-b93e-04c4ef8f1221")
+		)
+		(pin "1"
+			(uuid "f87a4357-8199-4374-8e51-935938fc95bc")
+		)
+		(pin "6"
+			(uuid "17e9cb0f-1f66-40a4-9c1a-131fa2bf1e36")
+		)
+		(pin "4"
+			(uuid "b3c9b0fd-43d0-4fcf-a90f-c50694b22ef4")
+		)
+		(pin "2"
+			(uuid "a1f6babb-e857-4737-9a50-cbbab75a31da")
+		)
+		(pin "3"
+			(uuid "65ee70c8-38f1-454d-b634-1770a1c88934")
+		)
+		(instances
+			(project "Ai1_CC1000"
+				(path "/076dc5cd-406b-4946-8ecf-b008a690dad8"
+					(reference "IC7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 241.3 190.5 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c7c2a46b-78aa-4c69-b967-5f0a0a2063bc")
+		(property "Reference" "#PWR043"
+			(at 234.95 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 237.49 190.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 241.3 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bf5dc4b9-d47f-41b3-9706-e3e5621a4966")
+		)
+		(instances
+			(project "Ai1_CC1000"
+				(path "/076dc5cd-406b-4946-8ecf-b008a690dad8"
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -44013,106 +44087,6 @@
 			(project "Ai1_CC1000"
 				(path "/076dc5cd-406b-4946-8ecf-b008a690dad8"
 					(reference "C281")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "RF_Switch:ADG918BRM")
-		(at 359.41 101.6 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d0f03cc1-8aeb-4920-92d1-1d891a3ecf1b")
-		(property "Reference" "U8"
-			(at 357.2667 86.36 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ADG918BRM"
-			(at 357.2667 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
-			(at 359.41 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADG918_919.pdf"
-			(at 360.68 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "SPDT DC-4GHz absorbative switch, 43dB isolation at 1GHz, MSOP-8"
-			(at 359.41 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "7"
-			(uuid "6f5ccbd3-ca2f-4d5e-be86-74c6536f1d8b")
-		)
-		(pin "4"
-			(uuid "2d997ead-89d1-4cbc-877a-4f26a26589fe")
-		)
-		(pin "3"
-			(uuid "91830e40-0835-4b14-af06-22aca23a429d")
-		)
-		(pin "2"
-			(uuid "47003b38-53c7-4ba4-a045-580f5f1d5521")
-		)
-		(pin "8"
-			(uuid "169483c2-05e1-4836-a633-1bc4f3f7d3e7")
-		)
-		(pin "5"
-			(uuid "408cd558-572f-4a84-a206-f5cb837c699b")
-		)
-		(pin "1"
-			(uuid "ecdc9888-3c68-4d72-998d-f9813741b259")
-		)
-		(pin "6"
-			(uuid "76bbbc72-4740-49a8-ab84-bacc5629f528")
-		)
-		(instances
-			(project "Ai1_CC1000"
-				(path "/076dc5cd-406b-4946-8ecf-b008a690dad8"
-					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -44356,9 +44330,8 @@
 		)
 	)
 	(symbol
-		(lib_id "RF_Switch:ADG918BRM")
-		(at 326.39 113.03 0)
-		(mirror y)
+		(lib_id "power:VDDA")
+		(at 231.14 175.26 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -44366,9 +44339,21 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "d73c3c14-ea81-4187-a301-2bdaa2143f74")
-		(property "Reference" "U6"
-			(at 324.2467 97.79 0)
+		(fields_autoplaced yes)
+		(uuid "d4cb5577-4c5c-4be9-8b36-798bc91a6629")
+		(property "Reference" "#PWR018"
+			(at 227.33 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDDA"
+			(at 234.95 175.2599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -44378,19 +44363,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ADG918BRM"
-			(at 324.2467 100.33 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
-			(at 326.39 124.46 0)
+		(property "Footprint" ""
+			(at 231.14 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44400,8 +44374,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADG918_919.pdf"
-			(at 327.66 107.95 0)
+		(property "Datasheet" ""
+			(at 231.14 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44411,8 +44385,8 @@
 				)
 			)
 		)
-		(property "Description" "SPDT DC-4GHz absorbative switch, 43dB isolation at 1GHz, MSOP-8"
-			(at 326.39 113.03 0)
+		(property "Description" "Power symbol creates a global label with name \"VDDA\""
+			(at 231.14 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44421,35 +44395,93 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "7"
-			(uuid "c9e093b3-4234-41e8-9aa6-9090d6f4f572")
-		)
-		(pin "4"
-			(uuid "72e9aabd-be45-4b56-af4e-1a7e21baa2df")
-		)
-		(pin "3"
-			(uuid "1ba6cdb5-3eec-467b-942d-b8ac5fd6a347")
-		)
-		(pin "2"
-			(uuid "1de5d53d-5984-4a60-b88a-18b73f1c17e4")
-		)
-		(pin "8"
-			(uuid "1dfbbca2-5e59-4219-b673-04c7e08c3fbc")
-		)
-		(pin "5"
-			(uuid "983f9957-517c-4544-91dc-a461f4b7adc5")
 		)
 		(pin "1"
-			(uuid "018be1a8-48a3-43ed-adc0-67d538c2b663")
-		)
-		(pin "6"
-			(uuid "022df169-5867-4b2a-b884-808566bc1937")
+			(uuid "0a63e592-6db2-48c4-a5d0-532181268802")
 		)
 		(instances
 			(project "Ai1_CC1000"
 				(path "/076dc5cd-406b-4946-8ecf-b008a690dad8"
-					(reference "U6")
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDDA")
+		(at 269.24 193.04 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d774c074-088f-4390-9abf-19d29294a6ce")
+		(property "Reference" "#PWR044"
+			(at 265.43 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDDA"
+			(at 273.05 193.0399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 269.24 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDDA\""
+			(at 269.24 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "03ab3315-1ca7-4f35-bafb-5c0b7f8ea4bb")
+		)
+		(instances
+			(project "Ai1_CC1000"
+				(path "/076dc5cd-406b-4946-8ecf-b008a690dad8"
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -44700,106 +44732,6 @@
 		)
 	)
 	(symbol
-		(lib_id "RF_Switch:ADG918BRM")
-		(at 226.06 113.03 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "dfb32e9a-d006-454b-ab13-5b2fbacc896a")
-		(property "Reference" "U3"
-			(at 223.9167 97.79 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ADG918BRM"
-			(at 223.9167 100.33 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
-			(at 226.06 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADG918_919.pdf"
-			(at 227.33 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "SPDT DC-4GHz absorbative switch, 43dB isolation at 1GHz, MSOP-8"
-			(at 226.06 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "7"
-			(uuid "eb9f1c0c-4efa-48ec-a9ae-c47c1bb1473a")
-		)
-		(pin "4"
-			(uuid "087c31ae-b44d-4e5c-a577-94ea8add6ee2")
-		)
-		(pin "3"
-			(uuid "bdcea277-83c5-4d00-ad67-cad2e752f339")
-		)
-		(pin "2"
-			(uuid "3990afbe-fa49-40cd-a82d-4f523a6493d8")
-		)
-		(pin "8"
-			(uuid "af13dc77-ce6e-49b4-84ff-d5c3e768cf0a")
-		)
-		(pin "5"
-			(uuid "3790f2f5-4a02-4ae8-b006-233cc5a7b607")
-		)
-		(pin "1"
-			(uuid "b985f79a-2759-48ce-b32c-3e3f6056f308")
-		)
-		(pin "6"
-			(uuid "e14c658c-e9b1-4558-b485-f5cdc710062a")
-		)
-		(instances
-			(project "Ai1_CC1000"
-				(path "/076dc5cd-406b-4946-8ecf-b008a690dad8"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
 		(at 69.85 104.14 180)
 		(unit 1)
@@ -44954,6 +44886,85 @@
 			(project "Ai1_CC1000"
 				(path "/076dc5cd-406b-4946-8ecf-b008a690dad8"
 					(reference "C1_5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDDA")
+		(at 269.24 110.49 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ede98cf4-82fc-44b7-8226-863a6b96c47d")
+		(property "Reference" "#PWR034"
+			(at 265.43 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDDA"
+			(at 273.05 110.4899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 269.24 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDDA\""
+			(at 269.24 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "084c4429-41f8-43ab-ae7a-91d0f3076d16")
+		)
+		(instances
+			(project "Ai1_CC1000"
+				(path "/076dc5cd-406b-4946-8ecf-b008a690dad8"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -45386,6 +45397,85 @@
 	)
 	(symbol
 		(lib_id "power:VDDA")
+		(at 231.14 195.58 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4d00cf6-4810-4fed-acbc-25e775ae92ef")
+		(property "Reference" "#PWR042"
+			(at 227.33 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDDA"
+			(at 234.95 195.5799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDDA\""
+			(at 231.14 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0a04d0da-9209-4f73-ac81-6c49989a08d1")
+		)
+		(instances
+			(project "Ai1_CC1000"
+				(path "/076dc5cd-406b-4946-8ecf-b008a690dad8"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDDA")
 		(at 133.35 269.24 180)
 		(unit 1)
 		(body_style 1)
@@ -45542,6 +45632,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDDA")
+		(at 269.24 130.81 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6f9970c-272a-45d3-b994-ec8384b0d489")
+		(property "Reference" "#PWR029"
+			(at 265.43 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDDA"
+			(at 273.05 130.8099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 269.24 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDDA\""
+			(at 269.24 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "67a5c51e-ad5a-4840-9e54-daeb71636540")
+		)
+		(instances
+			(project "Ai1_CC1000"
+				(path "/076dc5cd-406b-4946-8ecf-b008a690dad8"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 308.61 41.91 0)
 		(mirror x)
@@ -45625,9 +45794,8 @@
 		)
 	)
 	(symbol
-		(lib_id "RF_Switch:ADG918BRM")
-		(at 359.41 209.55 0)
-		(mirror y)
+		(lib_id "BGS12WN6E6329XTSA1:BGS12WN6E6329XTSA1")
+		(at 203.2 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -45635,31 +45803,54 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "ff290c30-d004-4d1c-8b3c-234998a9432d")
-		(property "Reference" "U11"
-			(at 357.2667 194.31 0)
+		(fields_autoplaced yes)
+		(uuid "fa00a426-dc25-440c-aedb-60393ea1b3da")
+		(property "Reference" "IC1"
+			(at 217.17 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "ADG918BRM"
-			(at 357.2667 196.85 0)
+		(property "Value" "BGS12WN6E6329XTSA1"
+			(at 217.17 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
-			(at 359.41 220.98 0)
+		(property "Footprint" "Package_LGA:Infineon_PG-TSNP-6-10_0.7x1.1mm_0.7x1.1mm_P0.4mm"
+			(at 227.33 202.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/196/Infineon_BGS12WN6_DataSheet_v02_05_EN-3360659.pdf"
+			(at 227.33 302.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RF Switch ICs Y"
+			(at 203.2 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45669,8 +45860,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADG918_919.pdf"
-			(at 360.68 204.47 0)
+		(property "Height" "0.4"
+			(at 227.33 502.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45678,10 +45869,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Description" "SPDT DC-4GHz absorbative switch, 43dB isolation at 1GHz, MSOP-8"
-			(at 359.41 209.55 0)
+		(property "Mouser Part Number" "726-BGS12WN6E6329XTS"
+			(at 227.33 602.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45689,36 +45881,67 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(pin "7"
-			(uuid "45b40fe1-345f-4a48-9d45-e783cbab2850")
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BGS12WN6E6329XTSA1?qs=mELouGlnn3dQkhOAI%252B1UhQ%3D%3D"
+			(at 227.33 702.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
 		)
-		(pin "4"
-			(uuid "92fb8caa-fdb3-4888-9c99-28858505331f")
+		(property "Manufacturer_Name" "Infineon"
+			(at 227.33 802.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
 		)
-		(pin "3"
-			(uuid "93e3add8-16ff-4e3f-8a7c-d9f75bf4cc42")
-		)
-		(pin "2"
-			(uuid "54390b99-d25d-4d47-a173-78746ed793c2")
-		)
-		(pin "8"
-			(uuid "ffabc9ef-e10f-4efe-8783-06737f02f35b")
+		(property "Manufacturer_Part_Number" "BGS12WN6E6329XTSA1"
+			(at 227.33 902.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
 		)
 		(pin "5"
-			(uuid "a1e9e787-f9f6-4976-924d-43a6828eef24")
+			(uuid "1d05586c-a142-4840-af17-22b09425c17a")
 		)
 		(pin "1"
-			(uuid "d9c6028a-39ec-4198-b681-55f25d9e3ecf")
+			(uuid "dbc067ea-3c16-492f-9a42-86e8486b4b4e")
 		)
 		(pin "6"
-			(uuid "3449075f-32f9-447c-884c-892cb69f5989")
+			(uuid "fcec73d3-0842-445c-88d8-066ea047185e")
+		)
+		(pin "4"
+			(uuid "2a0935b3-2109-4bcc-bb72-48009eb2d73a")
+		)
+		(pin "2"
+			(uuid "fb6b8fca-ed59-4525-adb1-a55f1707ec16")
+		)
+		(pin "3"
+			(uuid "f46f9e90-8c4c-41b1-bb6d-99c21feacfe2")
 		)
 		(instances
 			(project "Ai1_CC1000"
 				(path "/076dc5cd-406b-4946-8ecf-b008a690dad8"
-					(reference "U11")
+					(reference "IC1")
 					(unit 1)
 				)
 			)

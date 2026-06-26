@@ -1,0 +1,9 @@
+Manufacturer=Infineon
+PartNumber=BGS12WN6E6329XTSA1
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=6
+Version=1.2
+Released=2024-09-24 16:53:30
+Downloaded=2026-06-26 22:03:15
+3D=Y

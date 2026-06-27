@@ -37054,6 +37054,16 @@
 		)
 		(uuid "66bbfdc2-2f37-4384-9e30-187e9fb8d473")
 	)
+	(label "To_Ant_433Mhz"
+		(at 195.58 154.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6b3f30b7-1dcc-47b4-8638-ed6d6d2a24e1")
+	)
 	(label "C_RFS_8"
 		(at 240.03 222.25 0)
 		(effects
@@ -37084,16 +37094,6 @@
 		)
 		(uuid "77716668-8d5f-44be-ae78-69f54375ae37")
 	)
-	(label "To_Ant_433Mhz"
-		(at 195.58 149.86 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7999ba3f-8edc-4886-86b1-4fa598a0adce")
-	)
 	(label "L_315_2"
 		(at 160.02 166.37 0)
 		(effects
@@ -37104,6 +37104,16 @@
 		)
 		(uuid "7b953825-9e62-4d83-86ff-9e328e8e83d5")
 	)
+	(label "To_Ant_915Mhz"
+		(at 195.58 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7ee7791f-3c8d-4791-8ab5-7e39fa12733c")
+	)
 	(label "915MHz_In"
 		(at 198.12 113.03 180)
 		(effects
@@ -37113,16 +37123,6 @@
 			(justify right bottom)
 		)
 		(uuid "8490c8e2-7bad-4bc0-9f4e-8959e7ca3268")
-	)
-	(label "To_Ant_915Mhz"
-		(at 195.58 154.94 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8a36887c-898b-443b-a917-b2cd55bebc0a")
 	)
 	(label "C_RFS_6"
 		(at 231.14 147.32 0)

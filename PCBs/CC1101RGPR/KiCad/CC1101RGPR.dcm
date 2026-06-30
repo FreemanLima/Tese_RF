@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CC1101RGPR
+D Low-Power Sub-1GHz RF Transceiver
+K
+F http://www.ti.com/lit/gpn/cc1101
+$ENDCMP
+#
+#End Doc Library

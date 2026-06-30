@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Library") (type "KiCad") (uri "C:/Users/User/Documents/Docs/Tese_RF/PCBs/Library.pretty") (options "") (descr ""))
+)

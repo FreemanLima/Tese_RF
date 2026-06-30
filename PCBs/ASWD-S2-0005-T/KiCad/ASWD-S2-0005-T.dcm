@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ASWD-S2-0005-T
+D RF Switch IC Bluetooth, GNSS, GSM, LTE, WCDMA, WiFi SPDT SOT-363-6L
+K
+F https://abracon.com/datasheets/ASWD-S2-0005.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,27 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model ASWD-S2-0005-T
+#/21168011/1599319/2.50/6/3/Integrated Circuit
+DEF ASWD-S2-0005-T IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "ASWD-S2-0005-T" 950 200 50 H V L CNN
+F2 "ASWDS20005T" 950 100 50 H I L CNN
+F3 "https://abracon.com/datasheets/ASWD-S2-0005.pdf" 950 0 50 H I L CNN
+F4 "RF Switch IC Bluetooth, GNSS, GSM, LTE, WCDMA, WiFi SPDT SOT-363-6L" 950 -100 50 H I L CNN "Description"
+F5 "1.05" 950 -200 50 H I L CNN "Height"
+F6 "" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "ABRACON" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "ASWD-S2-0005-T" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X RF2 1 0 0 200 R 50 50 0 0 P
+X GND 2 0 -100 200 R 50 50 0 0 P
+X RF1 3 0 -200 200 R 50 50 0 0 P
+X VDD 4 1100 -200 200 L 50 50 0 0 P
+X RFC 5 1100 -100 200 L 50 50 0 0 P
+X VCTL 6 1100 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

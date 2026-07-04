@@ -17372,7 +17372,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:ASWDS20005T"
+		(property "Footprint" "Library:ASWS_S2_0002"
 			(at 101.6 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -17686,7 +17686,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:ASWDS20005T"
+		(property "Footprint" "Library:ASWS_S2_0002"
 			(at 53.34 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -17998,7 +17998,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:ASWDS20005T"
+		(property "Footprint" "Library:ASWS_S2_0002"
 			(at 53.34 157.48 0)
 			(hide yes)
 			(show_name no)

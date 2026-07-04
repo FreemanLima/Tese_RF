@@ -1,0 +1,98 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,10.0.3*%
+%TF.CreationDate,2026-07-04T14:53:51+01:00*%
+%TF.ProjectId,CC1101_Multx,43433131-3031-45f4-9d75-6c74782e6b69,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Soldermask,Bot*%
+%TF.FilePolarity,Negative*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 10.0.3) date 2026-07-04 14:53:51*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 Aperture macros list*
+%AMRoundRect*
+0 Rectangle with rounded corners*
+0 $1 Rounding radius*
+0 $2 $3 $4 $5 $6 $7 $8 $9 X,Y pos of 4 corners*
+0 Add a 4 corners polygon primitive as box body*
+4,1,4,$2,$3,$4,$5,$6,$7,$8,$9,$2,$3,0*
+0 Add four circle primitives for the rounded corners*
+1,1,$1+$1,$2,$3*
+1,1,$1+$1,$4,$5*
+1,1,$1+$1,$6,$7*
+1,1,$1+$1,$8,$9*
+0 Add four rect primitives between the rounded corners*
+20,1,$1+$1,$2,$3,$4,$5,0*
+20,1,$1+$1,$4,$5,$6,$7,0*
+20,1,$1+$1,$6,$7,$8,$9,0*
+20,1,$1+$1,$8,$9,$2,$3,0*%
+G04 Aperture macros list end*
+%ADD10C,2.200000*%
+%ADD11R,1.700000X1.700000*%
+%ADD12C,1.100000*%
+%ADD13RoundRect,0.249999X0.850001X0.850001X-0.850001X0.850001X-0.850001X-0.850001X0.850001X-0.850001X0*%
+%ADD14RoundRect,0.250000X-1.595000X-1.082500X1.595000X-1.082500X1.595000X1.082500X-1.595000X1.082500X0*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,REF\u002A\u002A*%
+X167135534Y-89550000D03*
+%TD*%
+%TO.C,REF\u002A\u002A*%
+X152400000Y-89550000D03*
+%TD*%
+D11*
+%TO.C,J8*%
+X148336000Y-89865200D03*
+%TD*%
+%TO.C,J7*%
+X148336000Y-72085200D03*
+%TD*%
+%TO.C,J3*%
+X148336000Y-82245200D03*
+%TD*%
+D12*
+%TO.C,BT1*%
+X159240000Y-70580000D03*
+X156700000Y-70580000D03*
+D13*
+X159240000Y-73120000D03*
+D10*
+X156700000Y-73120000D03*
+%TD*%
+D11*
+%TO.C,J1*%
+X148336000Y-79705200D03*
+%TD*%
+%TO.C,J6*%
+X148336000Y-87325200D03*
+%TD*%
+%TO.C,J4*%
+X148336000Y-74625200D03*
+%TD*%
+%TO.C,J2*%
+X148336000Y-77165200D03*
+%TD*%
+D10*
+%TO.C,REF\u002A\u002A*%
+X152400000Y-71490000D03*
+%TD*%
+D11*
+%TO.C,J5*%
+X148336000Y-84785200D03*
+%TD*%
+D14*
+%TO.C,AE1*%
+X178410794Y-79468200D03*
+X178410794Y-86453200D03*
+%TD*%
+D11*
+%TO.C,J9*%
+X148336000Y-69545200D03*
+%TD*%
+D10*
+%TO.C,REF\u002A\u002A*%
+X167135534Y-71484449D03*
+%TD*%
+M02*

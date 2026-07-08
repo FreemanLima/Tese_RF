@@ -1341,62 +1341,60 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "New_Library:ASWD-S2-0005-T"
+		(symbol "New_Library:4259-63"
 			(pin_names
-				(offset 0.762)
+				(offset 0.254)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "IC"
-				(at 24.13 7.62 0)
+			(property "Reference" "U"
+				(at 25.4 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "ASWD-S2-0005-T"
-				(at 24.13 5.08 0)
+			(property "Value" "4259-63"
+				(at 25.4 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "ASWDS20005T"
-				(at 24.13 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "https://abracon.com/datasheets/ASWD-S2-0005.pdf"
-				(at 24.13 0 0)
+			(property "Footprint" "SC-70-6_PSM"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
-					(justify left)
 				)
 			)
-			(property "Description" "RF Switch IC Bluetooth, GNSS, GSM, LTE, WCDMA, WiFi SPDT SOT-363-6L"
+			(property "Datasheet" "https://www.psemi.com/pdf/datasheets/pe4259ds.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Description" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1407,8 +1405,18 @@
 					)
 				)
 			)
-			(property "Description_1" "RF Switch IC Bluetooth, GNSS, GSM, LTE, WCDMA, WiFi SPDT SOT-363-6L"
-				(at 24.13 -2.54 0)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "4259-63"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1416,11 +1424,10 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Height" "1.05"
-				(at 24.13 -5.08 0)
+			(property "ki_fp_filters" "SC-70-6_PSM SC-70-6_PSM-M SC-70-6_PSM-L"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1428,62 +1435,61 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Mouser Part Number" ""
-				(at 24.13 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "4259-63_0_1"
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 -10.16)
 					)
-					(justify left)
-				)
-			)
-			(property "Mouser Price/Stock" ""
-				(at 24.13 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
+					(stroke
+						(width 0.127)
+						(type default)
 					)
-					(justify left)
-				)
-			)
-			(property "Manufacturer_Name" "ABRACON"
-				(at 24.13 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
+					(fill
+						(type none)
 					)
-					(justify left)
 				)
-			)
-			(property "Manufacturer_Part_Number" "ASWD-S2-0005-T"
-				(at 24.13 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
+				(polyline
+					(pts
+						(xy 7.62 -10.16) (xy 43.18 -10.16)
 					)
-					(justify left)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
 				)
-			)
-			(symbol "ASWD-S2-0005-T_0_0"
-				(pin passive line
+				(polyline
+					(pts
+						(xy 43.18 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 43.18 -10.16) (xy 43.18 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
 					(at 0 0 0)
-					(length 5.08)
-					(name "RF2"
+					(length 7.62)
+					(name "RF1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1498,9 +1504,9 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_out line
 					(at 0 -2.54 0)
-					(length 5.08)
+					(length 7.62)
 					(name "GND"
 						(effects
 							(font
@@ -1516,10 +1522,10 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin bidirectional line
 					(at 0 -5.08 0)
-					(length 5.08)
-					(name "RF1"
+					(length 7.62)
+					(name "RF2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1534,10 +1540,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 27.94 -5.08 180)
-					(length 5.08)
-					(name "VDD"
+				(pin unspecified line
+					(at 50.8 -5.08 180)
+					(length 7.62)
+					(name "CTRL"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1552,9 +1558,9 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 27.94 -2.54 180)
-					(length 5.08)
+				(pin unspecified line
+					(at 50.8 -2.54 180)
+					(length 7.62)
 					(name "RFC"
 						(effects
 							(font
@@ -1570,10 +1576,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 27.94 0 180)
-					(length 5.08)
-					(name "VCTL"
+				(pin power_in line
+					(at 50.8 0 180)
+					(length 7.62)
+					(name "*CTRL/VDD"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1586,20 +1592,6 @@
 								(size 1.27 1.27)
 							)
 						)
-					)
-				)
-			)
-			(symbol "ASWD-S2-0005-T_0_1"
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 22.86 2.54) (xy 22.86 -7.62) (xy 5.08 -7.62) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
 					)
 				)
 			)
@@ -2154,7 +2146,7 @@
 		(uuid "e4d64d26-af61-48d9-8e43-b298bd882e2a")
 	)
 	(junction
-		(at 156.21 149.86)
+		(at 184.15 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "06c26e93-9a6a-4254-a5f4-1001b7e7b068")
@@ -2196,7 +2188,7 @@
 		(uuid "54a03ee5-20d1-4857-a012-6697e82089ae")
 	)
 	(junction
-		(at 168.91 149.86)
+		(at 196.85 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f7f7c4a-e5a9-4f7c-8b14-e787b48d8083")
@@ -2208,7 +2200,7 @@
 		(uuid "6cea7bfb-b738-4d6e-831a-0d337f231399")
 	)
 	(junction
-		(at 142.24 157.48)
+		(at 170.18 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "745feac9-f9fd-44a5-8feb-6f8d5a38e4c8")
@@ -2244,19 +2236,19 @@
 		(uuid "a60e4429-e350-4739-9a12-eb3ff1e222fa")
 	)
 	(junction
-		(at 156.21 157.48)
+		(at 184.15 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b8a5b991-b712-45d9-8a22-1f8eae2a0c24")
 	)
 	(junction
-		(at 142.24 149.86)
+		(at 170.18 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c8cdbcab-49dd-4a15-80e0-170aa8d1c76f")
 	)
 	(junction
-		(at 168.91 157.48)
+		(at 196.85 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d1225f77-b8c4-416c-9a8f-f245c51418a0")
@@ -2279,7 +2271,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 157.48) (xy 181.61 157.48)
+			(xy 196.85 130.81) (xy 209.55 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2339,7 +2331,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 157.48) (xy 142.24 161.29)
+			(xy 170.18 130.81) (xy 170.18 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2399,7 +2391,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 147.32) (xy 142.24 149.86)
+			(xy 170.18 120.65) (xy 170.18 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2429,7 +2421,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 149.86) (xy 156.21 149.86)
+			(xy 170.18 123.19) (xy 184.15 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2819,7 +2811,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 149.86) (xy 168.91 149.86)
+			(xy 184.15 123.19) (xy 196.85 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2969,7 +2961,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 157.48) (xy 156.21 157.48)
+			(xy 170.18 130.81) (xy 184.15 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2999,7 +2991,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 149.86) (xy 181.61 149.86)
+			(xy 196.85 123.19) (xy 209.55 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3099,7 +3091,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 157.48) (xy 168.91 157.48)
+			(xy 184.15 130.81) (xy 196.85 130.81)
 		)
 		(stroke
 			(width 0)
@@ -13027,6 +13019,16 @@
 			"GGaMMcYYYx3W/wPTXAFVfZYsEgAAAABJRU5ErkJggg=="
 		)
 	)
+	(label "433_N"
+		(at 24.13 163.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "042efca6-aa75-4c4e-8cb0-bfcbd989d82a")
+	)
 	(label "AGND"
 		(at 171.45 114.3 180)
 		(effects
@@ -13047,15 +13049,15 @@
 		)
 		(uuid "0b45ac85-3538-47d8-b6bb-df949a8a6bb3")
 	)
-	(label "433_N"
-		(at 29.21 165.1 180)
+	(label "AGND"
+		(at 24.13 161.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "0c80a180-f7d4-4a1b-bf9a-a2a81c9aac65")
+		(uuid "0c61cb75-7138-4d27-96fe-8b47ff32cec9")
 	)
 	(label "AGND"
 		(at 72.39 41.91 90)
@@ -13067,15 +13069,15 @@
 		)
 		(uuid "114cfd14-5707-4968-ae59-fc5187b368ef")
 	)
-	(label "RF_P"
-		(at 57.15 180.34 0)
+	(label "868_P"
+		(at 64.77 186.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "14c3f7d1-0e32-49d2-b2d0-6ba7d7963f21")
+		(uuid "15b20fa3-f9a9-4b19-9b04-9c41e4130e28")
 	)
 	(label "AVDD"
 		(at 91.44 80.01 0)
@@ -13096,6 +13098,16 @@
 			(justify left bottom)
 		)
 		(uuid "16c27abe-3db0-40b1-b915-cbd68f64a1b3")
+	)
+	(label "433_P"
+		(at 64.77 181.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1d6e025f-0162-45aa-bfe1-c2bf1edccb20")
 	)
 	(label "RF_P"
 		(at 91.44 87.63 0)
@@ -13128,6 +13140,16 @@
 		(uuid "3b34d331-5d33-437c-8a13-90a5ab40abd4")
 	)
 	(label "AGND"
+		(at 64.77 184.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3c468009-c97a-4f67-b0b0-ad150106757b")
+	)
+	(label "AGND"
 		(at 139.7 27.94 90)
 		(effects
 			(font
@@ -13137,15 +13159,15 @@
 		)
 		(uuid "41df20e4-ed1b-4fa5-9036-b5f9f0d2998a")
 	)
-	(label "868_P"
-		(at 29.21 182.88 180)
+	(label "868_A"
+		(at 96.52 163.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "4297a48d-3e66-4b68-9499-7d13734e4c88")
+		(uuid "582d99d0-ec8a-458d-be44-f6cb5b2bf3d9")
 	)
 	(label "AGND"
 		(at 67.31 59.69 90)
@@ -13177,16 +13199,6 @@
 		)
 		(uuid "6ab6ab1c-691d-408b-8c1d-cb158578358d")
 	)
-	(label "AVDD"
-		(at 57.15 182.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6e27593b-20f0-4c2c-b762-f85f1cfb5b2f")
-	)
 	(label "AGND"
 		(at 44.45 104.14 0)
 		(effects
@@ -13197,25 +13209,25 @@
 		)
 		(uuid "781b5d8c-7122-492e-8f50-3132751e64e2")
 	)
-	(label "868_A"
-		(at 77.47 165.1 180)
+	(label "433_A"
+		(at 96.52 158.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "78b8a887-5d2b-4665-9164-8b33d8883b42")
+		(uuid "7aee13e1-e369-4b2a-9434-3247ec4b893a")
 	)
-	(label "To_Ant"
-		(at 105.41 162.56 0)
+	(label "AVDD"
+		(at 147.32 158.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "7cedd5f0-acb7-4f0d-930e-d69a912e9ca6")
+		(uuid "7cbc9bd5-579c-41c8-b21a-062440d74643")
 	)
 	(label "AGND"
 		(at 139.7 85.09 90)
@@ -13227,8 +13239,18 @@
 		)
 		(uuid "7fee8538-e0dc-4a40-abec-fe0f741c1d13")
 	)
+	(label "RF_P"
+		(at 115.57 184.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8588e01d-c27e-4cd5-8aa2-c0e08f054bb8")
+	)
 	(label "AVDD"
-		(at 142.24 147.32 0)
+		(at 170.18 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13236,16 +13258,6 @@
 			(justify left bottom)
 		)
 		(uuid "91ba0adb-29fb-44e4-b64b-2b83b9172827")
-	)
-	(label "RF_N"
-		(at 57.15 162.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "92c7d42c-0aa7-4566-98b1-05854b108271")
 	)
 	(label "433_N"
 		(at 116.84 40.64 180)
@@ -13257,16 +13269,6 @@
 		)
 		(uuid "9cd5b1bf-d529-41a3-aaeb-f6be8a830c5d")
 	)
-	(label "433_A"
-		(at 77.47 160.02 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a65bbe7b-07e8-4fdd-ad0b-57e4552389b2")
-	)
 	(label "AGND"
 		(at 33.02 129.54 0)
 		(effects
@@ -13276,16 +13278,6 @@
 			(justify left bottom)
 		)
 		(uuid "a6bde472-5607-456e-92dc-6f476fc7e5d4")
-	)
-	(label "AGND"
-		(at 29.21 162.56 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a836cf6c-cda3-4bc2-84f3-80ebd9be60eb")
 	)
 	(label "433_P"
 		(at 116.84 50.8 180)
@@ -13317,16 +13309,6 @@
 		)
 		(uuid "ac9fd006-ac67-4381-bbbf-366ef91a310c")
 	)
-	(label "AVDD"
-		(at 105.41 165.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "af595b1e-f01b-4a12-8847-b6c68b89285d")
-	)
 	(label "AGND"
 		(at 62.23 59.69 90)
 		(effects
@@ -13338,6 +13320,16 @@
 		(uuid "af69c235-ce78-459f-bcb5-d28e17397e25")
 	)
 	(label "AGND"
+		(at 96.52 161.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b0d02b2c-bbd9-4c2f-9de0-818bbaf15875")
+	)
+	(label "AGND"
 		(at 74.93 59.69 90)
 		(effects
 			(font
@@ -13346,6 +13338,16 @@
 			(justify left bottom)
 		)
 		(uuid "b6912641-8edb-4ba6-96ee-c0158e78443f")
+	)
+	(label "868_N"
+		(at 24.13 158.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bc3ab526-02ea-461b-b369-387de81b5b5f")
 	)
 	(label "433_A"
 		(at 200.66 45.72 0)
@@ -13366,16 +13368,6 @@
 			(justify right bottom)
 		)
 		(uuid "bd78dfd6-1cbc-4281-a40d-44c9e7f18206")
-	)
-	(label "AGND"
-		(at 29.21 180.34 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bda4b514-e869-4358-b921-ed0ecc496430")
 	)
 	(label "AGND"
 		(at 185.42 57.15 180)
@@ -13407,25 +13399,25 @@
 		)
 		(uuid "cb417b1f-c3c8-4f48-b08e-a4d6846ed0a6")
 	)
-	(label "AVDD"
-		(at 57.15 165.1 0)
+	(label "To_Ant"
+		(at 147.32 161.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "d16d1485-f8d5-4d05-8b9b-40c39dc4d91a")
+		(uuid "cba749c2-59c4-4256-9cda-ddad289b406e")
 	)
-	(label "868_N"
-		(at 29.21 160.02 180)
+	(label "AVDD"
+		(at 74.93 158.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "deed9165-0e53-41a1-a013-9d0448633546")
+		(uuid "d83cb0b8-3675-4ea2-80b7-6d9489c13436")
 	)
 	(label "AVDD"
 		(at 91.44 82.55 0)
@@ -13436,6 +13428,16 @@
 			(justify left bottom)
 		)
 		(uuid "df012a93-f5d7-4484-b19d-27378136a3fb")
+	)
+	(label "AVDD"
+		(at 115.57 181.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e09ff84a-6f5f-47f0-ad64-df6f2bd5803e")
 	)
 	(label "AGND"
 		(at 139.7 128.27 270)
@@ -13448,7 +13450,7 @@
 		(uuid "e39aa679-e327-4149-a824-9546a1fa9f67")
 	)
 	(label "AGND"
-		(at 142.24 161.29 0)
+		(at 170.18 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13457,25 +13459,15 @@
 		)
 		(uuid "e48d9f48-fd83-431c-b339-34d7771cde64")
 	)
-	(label "433_P"
-		(at 29.21 177.8 180)
+	(label "RF_N"
+		(at 74.93 161.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "ee16941b-199e-4eba-93a0-9330958f8e84")
-	)
-	(label "AGND"
-		(at 77.47 162.56 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f27de8f8-4fe2-45fd-99d7-23740915bc91")
+		(uuid "f09059d9-646c-4295-88f2-153aba2124ff")
 	)
 	(symbol
 		(lib_id "Device:L")
@@ -14276,7 +14268,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 168.91 153.67 180)
+		(at 196.85 127 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14287,7 +14279,7 @@
 		(fields_autoplaced yes)
 		(uuid "20adde66-ccf8-49b7-b5e2-97e18043afbc")
 		(property "Reference" "C2"
-			(at 172.72 152.3999 0)
+			(at 200.66 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14298,7 +14290,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 172.72 154.9399 0)
+			(at 200.66 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14309,7 +14301,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 167.9448 149.86 0)
+			(at 195.8848 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14320,7 +14312,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 153.67 0)
+			(at 196.85 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14331,7 +14323,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 168.91 153.67 0)
+			(at 196.85 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14342,7 +14334,7 @@
 			)
 		)
 		(property "LCSC Part #" "C2189775"
-			(at 168.91 153.67 0)
+			(at 196.85 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14353,7 +14345,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 168.91 153.67 0)
+			(at 196.85 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14364,7 +14356,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 168.91 153.67 0)
+			(at 196.85 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14851,7 +14843,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 110.49 160.02 180)
+		(at 152.4 163.83 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14862,7 +14854,7 @@
 		(fields_autoplaced yes)
 		(uuid "28869315-2015-4e1b-a5bd-6f320942b151")
 		(property "Reference" "J9"
-			(at 109.855 154.94 0)
+			(at 151.765 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14872,7 +14864,7 @@
 			)
 		)
 		(property "Value" "MCU"
-			(at 109.855 157.48 0)
+			(at 151.765 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14882,7 +14874,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 110.49 160.02 0)
+			(at 152.4 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14893,7 +14885,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 160.02 0)
+			(at 152.4 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14904,7 +14896,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 110.49 160.02 0)
+			(at 152.4 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14915,7 +14907,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 110.49 160.02 0)
+			(at 152.4 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14926,7 +14918,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 110.49 160.02 0)
+			(at 152.4 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14937,7 +14929,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 110.49 160.02 0)
+			(at 152.4 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15188,7 +15180,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 62.23 177.8 180)
+		(at 120.65 186.69 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15199,7 +15191,7 @@
 		(fields_autoplaced yes)
 		(uuid "3ac6af49-38f5-41bb-a512-bc15d93fdb46")
 		(property "Reference" "J8"
-			(at 61.595 172.72 0)
+			(at 120.015 181.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15209,7 +15201,7 @@
 			)
 		)
 		(property "Value" "MCU"
-			(at 61.595 175.26 0)
+			(at 120.015 184.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15219,7 +15211,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 62.23 177.8 0)
+			(at 120.65 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15230,7 +15222,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 177.8 0)
+			(at 120.65 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15241,7 +15233,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 62.23 177.8 0)
+			(at 120.65 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15252,7 +15244,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 62.23 177.8 0)
+			(at 120.65 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15263,7 +15255,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 62.23 177.8 0)
+			(at 120.65 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15274,7 +15266,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 62.23 177.8 0)
+			(at 120.65 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15521,7 +15513,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 156.21 153.67 180)
+		(at 184.15 127 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15532,7 +15524,7 @@
 		(fields_autoplaced yes)
 		(uuid "58e02c8b-5fb0-421b-b3da-18b0e5db77f2")
 		(property "Reference" "C1"
-			(at 160.02 152.3999 0)
+			(at 187.96 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15543,7 +15535,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 160.02 154.9399 0)
+			(at 187.96 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15554,7 +15546,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 155.2448 149.86 0)
+			(at 183.1848 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15565,7 +15557,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 153.67 0)
+			(at 184.15 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15576,7 +15568,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 156.21 153.67 0)
+			(at 184.15 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15587,7 +15579,7 @@
 			)
 		)
 		(property "LCSC Part #" "C126521"
-			(at 156.21 153.67 0)
+			(at 184.15 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15598,7 +15590,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 156.21 153.67 0)
+			(at 184.15 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15609,7 +15601,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 156.21 153.67 0)
+			(at 184.15 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15746,7 +15738,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 181.61 153.67 180)
+		(at 209.55 127 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15757,7 +15749,7 @@
 		(fields_autoplaced yes)
 		(uuid "67639782-12f3-4023-bcdc-17158dcdbde3")
 		(property "Reference" "C3"
-			(at 185.42 152.3999 0)
+			(at 213.36 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15768,7 +15760,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 185.42 154.9399 0)
+			(at 213.36 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15779,7 +15771,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 180.6448 149.86 0)
+			(at 208.5848 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15790,7 +15782,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 153.67 0)
+			(at 209.55 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15801,7 +15793,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 181.61 153.67 0)
+			(at 209.55 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15812,7 +15804,7 @@
 			)
 		)
 		(property "LCSC Part #" "C162190"
-			(at 181.61 153.67 0)
+			(at 209.55 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15823,7 +15815,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 181.61 153.67 0)
+			(at 209.55 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15834,7 +15826,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 181.61 153.67 0)
+			(at 209.55 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16314,7 +16306,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 62.23 160.02 180)
+		(at 80.01 163.83 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16325,7 +16317,7 @@
 		(fields_autoplaced yes)
 		(uuid "823b637f-26d7-46ae-96c9-15ec73a6a98f")
 		(property "Reference" "J7"
-			(at 61.595 154.94 0)
+			(at 79.375 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16335,7 +16327,7 @@
 			)
 		)
 		(property "Value" "MCU"
-			(at 61.595 157.48 0)
+			(at 79.375 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16345,7 +16337,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 62.23 160.02 0)
+			(at 80.01 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16356,7 +16348,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 160.02 0)
+			(at 80.01 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16367,7 +16359,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 62.23 160.02 0)
+			(at 80.01 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16378,7 +16370,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 62.23 160.02 0)
+			(at 80.01 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16389,7 +16381,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 62.23 160.02 0)
+			(at 80.01 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16400,7 +16392,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 62.23 160.02 0)
+			(at 80.01 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16890,6 +16882,100 @@
 		)
 	)
 	(symbol
+		(lib_id "New_Library:4259-63")
+		(at 24.13 158.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e4240f0-b6bf-42ec-9a5e-c4a23750207c")
+		(property "Reference" "U1"
+			(at 49.53 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "4259-63"
+			(at 49.53 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Library:SC-70-6_PSM-M"
+			(at 24.13 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.psemi.com/pdf/datasheets/pe4259ds.pdf"
+			(at 24.13 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" "https://www.digikey.com/en/products/detail/psemi/4259-63/2614473"
+			(at 24.13 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "b9303c02-4a1d-4660-a74d-ea15cd8a8573")
+		)
+		(pin "2"
+			(uuid "c08b9844-102b-4aa2-90f8-57d81e223011")
+		)
+		(pin "1"
+			(uuid "1b97bc0f-c5fa-4d6b-93b8-b60045beaebc")
+		)
+		(pin "4"
+			(uuid "a99c4061-9531-4846-b1ba-b260001cdfce")
+		)
+		(pin "3"
+			(uuid "055dc6fc-26bf-4666-9d00-3ac60793cf1a")
+		)
+		(pin "5"
+			(uuid "8ea18e4d-bc3b-4559-9205-9df875a4db5c")
+		)
+		(instances
+			(project "CC1101_Multx"
+				(path "/0b029cb4-e3f4-4063-8888-d5f11bf68d4e"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
 		(at 40.64 85.09 0)
 		(unit 1)
@@ -17341,8 +17427,8 @@
 		)
 	)
 	(symbol
-		(lib_id "New_Library:ASWD-S2-0005-T")
-		(at 77.47 160.02 0)
+		(lib_id "New_Library:4259-63")
+		(at 64.77 181.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17351,136 +17437,53 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ba8e5eb5-2822-4203-adb6-c989bca72028")
-		(property "Reference" "IC4"
-			(at 91.44 152.4 0)
+		(uuid "b51500c0-6dda-4b33-893c-ef2fe8a02c15")
+		(property "Reference" "U3"
+			(at 90.17 171.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Value" "ASWD-S2-0005-T"
-			(at 91.44 154.94 0)
+		(property "Value" "4259-63"
+			(at 90.17 173.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "Library:ASWS_S2_0002"
-			(at 101.6 157.48 0)
+		(property "Footprint" "Library:SC-70-6_PSM-M"
+			(at 64.77 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
-				(justify left)
 			)
 		)
-		(property "Datasheet" "https://abracon.com/datasheets/ASWD-S2-0005.pdf"
-			(at 101.6 160.02 0)
+		(property "Datasheet" "https://www.psemi.com/pdf/datasheets/pe4259ds.pdf"
+			(at 64.77 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "RF Switch IC Bluetooth, GNSS, GSM, LTE, WCDMA, WiFi SPDT SOT-363-6L"
-			(at 77.47 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
-		(property "Description_1" "RF Switch IC Bluetooth, GNSS, GSM, LTE, WCDMA, WiFi SPDT SOT-363-6L"
-			(at 101.6 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Height" "1.05"
-			(at 101.6 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 101.6 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 101.6 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer_Name" "ABRACON"
-			(at 101.6 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ASWD-S2-0005-T"
-			(at 101.6 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "LCSC Part #" "C47342120"
-			(at 77.47 160.02 0)
+		(property "Description" "https://www.digikey.com/en/products/detail/psemi/4259-63/2614473"
+			(at 64.77 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17489,51 +17492,29 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "KLC_S3.3" ""
-			(at 77.47 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 77.47 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "13b7aeab-6cfd-4090-8406-e0a624a742b7")
-		)
-		(pin "3"
-			(uuid "c74e845b-6daf-4629-8e61-ac2a9273fca9")
-		)
-		(pin "4"
-			(uuid "3bbebd07-66dd-484c-b4ec-a212b05ae654")
-		)
-		(pin "5"
-			(uuid "0cb17dba-aad1-44a2-8987-343ce258d657")
-		)
-		(pin "2"
-			(uuid "adfa51b7-6cba-4d8a-8235-82739ee5c1bd")
 		)
 		(pin "6"
-			(uuid "d05471c8-22b6-4a63-a864-8df4eba80f92")
+			(uuid "db433317-f75e-4afa-bf83-245d055d9a08")
+		)
+		(pin "2"
+			(uuid "48e6f2c3-a15d-4d06-89c9-44de0f5daa38")
+		)
+		(pin "1"
+			(uuid "2f604720-0517-451a-923f-58a65291cba0")
+		)
+		(pin "4"
+			(uuid "f51abd8e-550b-4ac7-982b-c0ab7effeb95")
+		)
+		(pin "3"
+			(uuid "03fcf9b8-ee66-4745-8be4-a32bb2e9bddb")
+		)
+		(pin "5"
+			(uuid "9a01e394-b3e2-4e47-ba54-1d92990249a7")
 		)
 		(instances
 			(project "CC1101_Multx"
 				(path "/0b029cb4-e3f4-4063-8888-d5f11bf68d4e"
-					(reference "IC4")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -17655,205 +17636,6 @@
 		)
 	)
 	(symbol
-		(lib_id "New_Library:ASWD-S2-0005-T")
-		(at 29.21 177.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bea1ee62-1073-4d80-bfc9-a641b10269db")
-		(property "Reference" "IC3"
-			(at 43.18 170.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ASWD-S2-0005-T"
-			(at 43.18 172.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Library:ASWS_S2_0002"
-			(at 53.34 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://abracon.com/datasheets/ASWD-S2-0005.pdf"
-			(at 53.34 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "RF Switch IC Bluetooth, GNSS, GSM, LTE, WCDMA, WiFi SPDT SOT-363-6L"
-			(at 29.21 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description_1" "RF Switch IC Bluetooth, GNSS, GSM, LTE, WCDMA, WiFi SPDT SOT-363-6L"
-			(at 53.34 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Height" "1.05"
-			(at 53.34 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 53.34 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 53.34 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer_Name" "ABRACON"
-			(at 53.34 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ASWD-S2-0005-T"
-			(at 53.34 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "LCSC Part #" "C47342120"
-			(at 29.21 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 29.21 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 29.21 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7c265c7b-4a30-4754-9eba-9c99a8b3c38a")
-		)
-		(pin "3"
-			(uuid "38c1892a-ea73-43cc-8148-9ed837f559e5")
-		)
-		(pin "4"
-			(uuid "aad13837-ab8c-4823-b1a3-4ad1b6d6e711")
-		)
-		(pin "5"
-			(uuid "18c8a03f-0c0d-4998-b848-38cca3aad8df")
-		)
-		(pin "2"
-			(uuid "cae34ab1-82d1-40a5-b52b-c6079f290518")
-		)
-		(pin "6"
-			(uuid "9a743d0e-9490-4afb-bf72-4d2c891c306f")
-		)
-		(instances
-			(project "CC1101_Multx"
-				(path "/0b029cb4-e3f4-4063-8888-d5f11bf68d4e"
-					(reference "IC3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L")
 		(at 165.1 45.72 90)
 		(unit 1)
@@ -17967,8 +17749,8 @@
 		)
 	)
 	(symbol
-		(lib_id "New_Library:ASWD-S2-0005-T")
-		(at 29.21 160.02 0)
+		(lib_id "New_Library:4259-63")
+		(at 96.52 158.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17977,136 +17759,53 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cd048e9a-965b-4145-a185-e4bd3fa95497")
-		(property "Reference" "IC2"
-			(at 43.18 152.4 0)
+		(uuid "cfce5b48-aec6-4273-bf9c-a7249350a027")
+		(property "Reference" "U2"
+			(at 121.92 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Value" "ASWD-S2-0005-T"
-			(at 43.18 154.94 0)
+		(property "Value" "4259-63"
+			(at 121.92 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "Library:ASWS_S2_0002"
-			(at 53.34 157.48 0)
+		(property "Footprint" "Library:SC-70-6_PSM-M"
+			(at 96.52 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
-				(justify left)
 			)
 		)
-		(property "Datasheet" "https://abracon.com/datasheets/ASWD-S2-0005.pdf"
-			(at 53.34 160.02 0)
+		(property "Datasheet" "https://www.psemi.com/pdf/datasheets/pe4259ds.pdf"
+			(at 96.52 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "RF Switch IC Bluetooth, GNSS, GSM, LTE, WCDMA, WiFi SPDT SOT-363-6L"
-			(at 29.21 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
-		(property "Description_1" "RF Switch IC Bluetooth, GNSS, GSM, LTE, WCDMA, WiFi SPDT SOT-363-6L"
-			(at 53.34 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Height" "1.05"
-			(at 53.34 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 53.34 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 53.34 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer_Name" "ABRACON"
-			(at 53.34 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ASWD-S2-0005-T"
-			(at 53.34 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "LCSC Part #" "C47342120"
-			(at 29.21 160.02 0)
+		(property "Description" "https://www.digikey.com/en/products/detail/psemi/4259-63/2614473"
+			(at 96.52 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18115,51 +17814,29 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "KLC_S3.3" ""
-			(at 29.21 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 29.21 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "081795b7-b8dc-419a-adbf-b0e9f5f556fa")
-		)
-		(pin "3"
-			(uuid "4f7303b3-d4bb-4e4a-bd7a-f605b795c324")
-		)
-		(pin "4"
-			(uuid "a9c7c123-d5d2-4f55-a237-3b6d98c50f81")
-		)
-		(pin "5"
-			(uuid "4ba2bc65-ed1f-4b91-8357-d0030b7bfe4d")
-		)
-		(pin "2"
-			(uuid "18ae6b04-d4cc-4cce-a25c-6c31aa9e1e26")
 		)
 		(pin "6"
-			(uuid "40a28968-4702-4588-b690-d9883a07dd76")
+			(uuid "31da2e9c-0fbd-4c8c-8378-a47fbb11bedd")
+		)
+		(pin "2"
+			(uuid "53130bff-f055-4e52-9105-58adb8be1259")
+		)
+		(pin "1"
+			(uuid "75f02533-6925-47d6-a72b-5e9e1484e3ba")
+		)
+		(pin "4"
+			(uuid "e086726f-af08-4b70-ac85-ab50e2f18d06")
+		)
+		(pin "3"
+			(uuid "09d021fc-689f-4efc-8bc5-0b868b708035")
+		)
+		(pin "5"
+			(uuid "3544f564-18a1-497c-b3ca-f26b5425c430")
 		)
 		(instances
 			(project "CC1101_Multx"
 				(path "/0b029cb4-e3f4-4063-8888-d5f11bf68d4e"
-					(reference "IC2")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -18199,7 +17876,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Molex_73251-2120_EdgeMount_Horizontal"
+		(property "Footprint" "Library:SMA_CONSMA020_062_G"
 			(at 30.48 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -18742,7 +18419,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 142.24 154.94 0)
+		(at 170.18 128.27 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18753,7 +18430,7 @@
 		(fields_autoplaced yes)
 		(uuid "e08d8f80-16ec-4c12-bb08-512b9d5b683d")
 		(property "Reference" "BT1"
-			(at 146.05 151.8284 0)
+			(at 173.99 125.1584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18764,7 +18441,7 @@
 			)
 		)
 		(property "Value" "VCCA"
-			(at 146.05 154.3684 0)
+			(at 173.99 127.6984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18774,8 +18451,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal"
-			(at 142.24 153.416 90)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 170.18 126.746 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18786,7 +18463,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 153.416 90)
+			(at 170.18 126.746 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18797,7 +18474,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 142.24 154.94 0)
+			(at 170.18 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18808,7 +18485,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 142.24 154.94 0)
+			(at 170.18 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18819,7 +18496,7 @@
 			)
 		)
 		(property "Sim.Type" "DC"
-			(at 142.24 154.94 0)
+			(at 170.18 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18830,7 +18507,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 142.24 154.94 0)
+			(at 170.18 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18841,7 +18518,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 142.24 154.94 0)
+			(at 170.18 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18852,7 +18529,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 142.24 154.94 0)
+			(at 170.18 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18863,7 +18540,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 142.24 154.94 0)
+			(at 170.18 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

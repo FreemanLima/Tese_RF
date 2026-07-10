@@ -13567,6 +13567,28 @@
 				)
 			)
 		)
+		(property "Digikey Part #" "490-LQW15AN12NJ80DCT-ND"
+			(at 125.73 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Name" "LQW15AN12NJ80D"
+			(at 125.73 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0a79ad70-5685-471a-9217-d2496f8baa41")
 		)
@@ -13670,6 +13692,28 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 177.8 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "490-6861-1-ND"
+			(at 177.8 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Name" "LQW18AN12NG00D"
 			(at 177.8 102.87 90)
 			(hide yes)
 			(show_name no)
@@ -13795,6 +13839,28 @@
 				)
 			)
 		)
+		(property "Digikey Part #" "490-6176-1-ND"
+			(at 80.01 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Name" "GRM1555C1E270JA01D"
+			(at 80.01 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7857a6eb-5afc-45e7-8701-bbe4b2375a43")
 		)
@@ -13900,6 +13966,28 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 72.39 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "P124494CT-ND"
+			(at 72.39 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Name" "ERJ-PA2F5602X"
 			(at 72.39 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -14025,6 +14113,28 @@
 				)
 			)
 		)
+		(property "Digikey Part #" "490-6176-1-ND"
+			(at 58.42 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Name" "GRM1555C1E270JA01D"
+			(at 58.42 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "194c3e13-69a4-4f23-933b-2ca616859aa1")
 		)
@@ -14138,6 +14248,28 @@
 				)
 			)
 		)
+		(property "Digikey Part #" "490-5924-1-ND"
+			(at 198.12 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Name" "GRM1555C1H120JA01D"
+			(at 198.12 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8c9fe154-596c-49fc-a1b2-8186433318dd")
 		)
@@ -14241,6 +14373,28 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 149.86 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" ""
+			(at 149.86 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Name" "LQW15CN18NJ00D"
 			(at 149.86 97.79 90)
 			(hide yes)
 			(show_name no)
@@ -14366,6 +14520,28 @@
 				)
 			)
 		)
+		(property "Digikey Part #" "490-GRM155C71H104JE19DCT-ND"
+			(at 196.85 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Name" "GRM155C71H104JE19D"
+			(at 196.85 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3fc9c4ca-c72e-4a32-a24a-d71a9ff40807")
 		)
@@ -14479,6 +14655,28 @@
 				)
 			)
 		)
+		(property "Digikey Part #" "490-16452-1-ND"
+			(at 149.86 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Name" "GCM1555C1H1R5JA16D"
+			(at 149.86 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ff732925-f121-45cf-b1f6-feadc4db80ef")
 		)
@@ -14582,6 +14780,28 @@
 			)
 		)
 		(property "LCSC Part #" "C7129840"
+			(at 69.85 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "490-XRCGB26M000F1S2BR0CT-ND"
+			(at 69.85 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Name" "XRCGB26M000F1S2BR0"
 			(at 69.85 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -14711,6 +14931,28 @@
 				)
 			)
 		)
+		(property "Digikey Part #" "490-15374-1-ND"
+			(at 177.8 45.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Name" "LQW15AN27NJ8ZD"
+			(at 177.8 45.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "de812781-9c9f-4dfd-a7ef-02fd9b549bff")
 		)
@@ -14816,6 +15058,28 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 139.7 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" ""
+			(at 139.7 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Name" "LQW15CN18NJ00D"
 			(at 139.7 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -14939,6 +15203,28 @@
 				)
 			)
 		)
+		(property "Digikey Part #" ""
+			(at 152.4 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Name" ""
+			(at 152.4 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7e83ca33-3bd8-4eee-8b21-bcbb590951ef")
 		)
@@ -15041,6 +15327,28 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 139.7 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "490-15374-1-ND"
+			(at 139.7 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Name" "LQW15AN27NJ8ZD"
 			(at 139.7 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -15166,6 +15474,28 @@
 				)
 			)
 		)
+		(property "Digikey Part #" ""
+			(at 64.77 54.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Name" ""
+			(at 64.77 54.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "76b501a5-5254-4761-9804-1eed22f9cd31")
 		)
@@ -15266,6 +15596,28 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 120.65 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" ""
+			(at 120.65 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Name" ""
 			(at 120.65 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -15386,6 +15738,28 @@
 				)
 			)
 		)
+		(property "Digikey Part #" ""
+			(at 59.69 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Name" ""
+			(at 59.69 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1ee63f47-c89a-41a8-b20c-ebffa43b20a7")
 		)
@@ -15486,6 +15860,28 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 193.04 45.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "490-4927-1-ND"
+			(at 193.04 45.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Name" "GCM1555C1H221JA16D"
 			(at 193.04 45.72 90)
 			(hide yes)
 			(show_name no)
@@ -15611,6 +16007,28 @@
 				)
 			)
 		)
+		(property "Digikey Part #" "490-GRM155C71A105KE11JCT-ND"
+			(at 184.15 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Name" "GRM155C71A105KE11J"
+			(at 184.15 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4e189513-14a4-4f99-be82-ff4c71a1776a")
 		)
@@ -15724,6 +16142,28 @@
 				)
 			)
 		)
+		(property "Digikey Part #" ""
+			(at 40.64 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Name" ""
+			(at 40.64 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "798f9e6e-60e9-4bc3-99eb-faccbb724850")
 		)
@@ -15826,6 +16266,28 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 209.55 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "490-7763-1-ND"
+			(at 209.55 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Name" "GRM155R71H103JA88D"
 			(at 209.55 127 0)
 			(hide yes)
 			(show_name no)
@@ -15951,6 +16413,28 @@
 				)
 			)
 		)
+		(property "Digikey Part #" "490-GCQ1555C1H8R2WB01DCT-ND"
+			(at 171.45 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Name" "GCQ1555C1H8R2WB01D"
+			(at 171.45 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b6d24324-8874-429c-984c-56bc21cb082f")
 		)
@@ -16054,6 +16538,28 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 149.86 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "490-15374-1-ND"
+			(at 149.86 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Name" "LQW15AN27NJ8ZD"
 			(at 149.86 40.64 90)
 			(hide yes)
 			(show_name no)
@@ -16179,6 +16685,28 @@
 				)
 			)
 		)
+		(property "Digikey Part #" "490-GCM1555C1H1R0JA16DCT-ND"
+			(at 139.7 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Name" "GCM1555C1H1R0JA16D"
+			(at 139.7 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "72dbc876-9906-49ea-bbd2-29c18a7327bf")
 		)
@@ -16282,6 +16810,28 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 57.15 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" ""
+			(at 57.15 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Name" ""
 			(at 57.15 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -16402,6 +16952,28 @@
 				)
 			)
 		)
+		(property "Digikey Part #" ""
+			(at 80.01 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Name" ""
+			(at 80.01 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e967e398-e47b-42c1-a9d8-e7cc1b48a006")
 		)
@@ -16512,6 +17084,28 @@
 				)
 			)
 		)
+		(property "Digikey Part #" ""
+			(at 40.64 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Name" ""
+			(at 40.64 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "90e90996-d184-4809-9a88-81ccd7e2fd99")
 		)
@@ -16612,6 +17206,28 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 125.73 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "490-LQW15AN12NJ80DCT-ND"
+			(at 125.73 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Name" "LQW15AN12NJ80D"
 			(at 125.73 107.95 90)
 			(hide yes)
 			(show_name no)
@@ -16809,6 +17425,28 @@
 				)
 			)
 		)
+		(property "Digikey Part #" "296-35718-1-ND"
+			(at 49.53 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Name" "CC1101RGPR"
+			(at 49.53 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "13"
 			(uuid "336a3c10-373f-432a-8b13-d1820111208c")
 		)
@@ -16948,6 +17586,28 @@
 				)
 			)
 		)
+		(property "Digikey Part #" ""
+			(at 24.13 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Name" ""
+			(at 24.13 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "b9303c02-4a1d-4660-a74d-ea15cd8a8573")
 		)
@@ -17073,6 +17733,28 @@
 				)
 			)
 		)
+		(property "Digikey Part #" ""
+			(at 40.64 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Name" ""
+			(at 40.64 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5be8ae87-ebc2-4624-82ed-7493862e3dbf")
 		)
@@ -17173,6 +17855,28 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 165.1 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "490-LQW15AN12NJ80DCT-ND"
+			(at 165.1 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Name" "LQW15AN12NJ80D"
 			(at 165.1 102.87 90)
 			(hide yes)
 			(show_name no)
@@ -17286,6 +17990,28 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 149.86 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "490-11216-1-ND"
+			(at 149.86 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Name" "GJM1555C1H3R9WB01D"
 			(at 149.86 50.8 90)
 			(hide yes)
 			(show_name no)
@@ -17411,6 +18137,28 @@
 				)
 			)
 		)
+		(property "Digikey Part #" "490-14349-1-ND"
+			(at 139.7 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Name" "GCM1555C1H101FA16D"
+			(at 139.7 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6225269a-71cb-4121-b997-9215f674f229")
 		)
@@ -17483,6 +18231,28 @@
 			)
 		)
 		(property "Description" "https://www.digikey.com/en/products/detail/psemi/4259-63/2614473"
+			(at 64.77 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" ""
+			(at 64.77 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Name" ""
 			(at 64.77 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -17620,6 +18390,28 @@
 				)
 			)
 		)
+		(property "Digikey Part #" "490-GRM155C71H104JE19DCT-ND"
+			(at 44.45 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Name" "GRM155C71H104JE19D"
+			(at 44.45 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d8d9f330-c195-4f10-9296-2d3dd3f593d7")
 		)
@@ -17733,6 +18525,28 @@
 				)
 			)
 		)
+		(property "Digikey Part #" "490-15363-1-ND"
+			(at 165.1 45.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Name" "LQW15AN22NG8ZD"
+			(at 165.1 45.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f64e9c5e-a82e-4744-b7e6-e89a35c9a552")
 		)
@@ -17805,6 +18619,28 @@
 			)
 		)
 		(property "Description" "https://www.digikey.com/en/products/detail/psemi/4259-63/2614473"
+			(at 96.52 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" ""
+			(at 96.52 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Name" ""
 			(at 96.52 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -17942,6 +18778,28 @@
 				)
 			)
 		)
+		(property "Digikey Part #" "343-CONSMA020.062-G-ND"
+			(at 30.48 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Name" "CONSMA020.062-G"
+			(at 30.48 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "06fe2c75-7991-4d9c-973a-eecaae3ebafa")
 		)
@@ -18047,6 +18905,28 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 185.42 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "490-11225-1-ND"
+			(at 185.42 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Name" "GJM1555C1H5R6BB01D"
 			(at 185.42 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -18172,6 +19052,28 @@
 				)
 			)
 		)
+		(property "Digikey Part #" "490-11216-1-ND"
+			(at 139.7 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Name" "GJM1555C1H3R9WB01D"
+			(at 139.7 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9b8091cd-5266-42b5-94ba-4416a5609e76")
 		)
@@ -18287,6 +19189,28 @@
 				)
 			)
 		)
+		(property "Digikey Part #" "490-16452-1-ND"
+			(at 139.7 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Name" "GCM1555C1H1R5JA16D"
+			(at 139.7 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a1b4d57e-792d-4cfc-be52-b7ff3f6810d9")
 		)
@@ -18392,6 +19316,28 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 171.45 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "490-8097-1-ND"
+			(at 171.45 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Name" "GJM1555C1H3R3BB01D"
 			(at 171.45 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -18550,6 +19496,28 @@
 				)
 			)
 		)
+		(property "Digikey Part #" ""
+			(at 170.18 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Name" ""
+			(at 170.18 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d50e7869-62f8-4710-858b-6d2855ae9cd7")
 		)
@@ -18655,6 +19623,28 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 139.7 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "490-4927-1-ND"
+			(at 139.7 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Name" "GCM1555C1H221JA16D"
 			(at 139.7 66.04 0)
 			(hide yes)
 			(show_name no)

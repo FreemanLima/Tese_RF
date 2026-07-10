@@ -1,6 +1,6 @@
 "Reference","Qty","Footprint","LCSC Part #","Value","Digikey Part #","Part Name"
 "Y1","1","Crystal:Crystal_SMD_SeikoEpson_FA128-4Pin_2.0x1.6mm","C7129840","XRCGB26M000F1S2BR0","490-XRCGB26M000F1S2BR0CT-ND","XRCGB26M000F1S2BR0"
-"U1,U2,U3","3","Library:SC-70-6_PSM-M","","4259-63","",""
+"U1,U2,U3","3","Library:SC-70-6_PSM-M","","4259-63","1046-1011-1-ND","4259-63"
 "R171","1","Resistor_SMD:R_0402_1005Metric","C427251","56k","P124494CT-ND","ERJ-PA2F5602X"
 "L124_2","1","Inductor_SMD:L_0603_1608Metric","C98068","12nH","490-6861-1-ND","LQW18AN12NG00D"
 "L122_2,L132_2","2","Inductor_SMD:L_0402_1005Metric","C437365","18nH","490-15348-1-ND","LQW15AN18NJ8ZD"

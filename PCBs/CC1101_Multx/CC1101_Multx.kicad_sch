@@ -17586,7 +17586,7 @@
 				)
 			)
 		)
-		(property "Digikey Part #" ""
+		(property "Digikey Part #" "1046-1011-1-ND"
 			(at 24.13 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -17597,7 +17597,7 @@
 				)
 			)
 		)
-		(property "Part Name" ""
+		(property "Part Name" "4259-63"
 			(at 24.13 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -18241,7 +18241,7 @@
 				)
 			)
 		)
-		(property "Digikey Part #" ""
+		(property "Digikey Part #" "1046-1011-1-ND"
 			(at 64.77 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -18252,7 +18252,7 @@
 				)
 			)
 		)
-		(property "Part Name" ""
+		(property "Part Name" "4259-63"
 			(at 64.77 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -18629,7 +18629,7 @@
 				)
 			)
 		)
-		(property "Digikey Part #" ""
+		(property "Digikey Part #" "1046-1011-1-ND"
 			(at 96.52 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -18640,7 +18640,7 @@
 				)
 			)
 		)
-		(property "Part Name" ""
+		(property "Part Name" "4259-63"
 			(at 96.52 158.75 0)
 			(hide yes)
 			(show_name no)

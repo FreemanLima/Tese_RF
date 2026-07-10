@@ -14383,7 +14383,7 @@
 				)
 			)
 		)
-		(property "Digikey Part #" ""
+		(property "Digikey Part #" "490-15348-1-ND"
 			(at 149.86 97.79 90)
 			(hide yes)
 			(show_name no)
@@ -14394,7 +14394,7 @@
 				)
 			)
 		)
-		(property "Part Name" "LQW15CN18NJ00D"
+		(property "Part Name" "LQW15AN18NJ8ZD"
 			(at 149.86 97.79 90)
 			(hide yes)
 			(show_name no)
@@ -15068,7 +15068,7 @@
 				)
 			)
 		)
-		(property "Digikey Part #" ""
+		(property "Digikey Part #" "490-15348-1-ND"
 			(at 139.7 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -15079,7 +15079,7 @@
 				)
 			)
 		)
-		(property "Part Name" "LQW15CN18NJ00D"
+		(property "Part Name" "LQW15AN18NJ8ZD"
 			(at 139.7 114.3 0)
 			(hide yes)
 			(show_name no)

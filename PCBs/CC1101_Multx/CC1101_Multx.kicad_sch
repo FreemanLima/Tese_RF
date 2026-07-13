@@ -13039,16 +13039,6 @@
 		)
 		(uuid "0a3f56db-9750-41df-9f10-ac6ea7caa6c2")
 	)
-	(label "To_Ant"
-		(at 30.48 129.54 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0b45ac85-3538-47d8-b6bb-df949a8a6bb3")
-	)
 	(label "AGND"
 		(at 24.13 161.29 180)
 		(effects
@@ -13070,7 +13060,7 @@
 		(uuid "114cfd14-5707-4968-ae59-fc5187b368ef")
 	)
 	(label "868_P"
-		(at 64.77 186.69 180)
+		(at 91.44 163.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13100,7 +13090,7 @@
 		(uuid "16c27abe-3db0-40b1-b915-cbd68f64a1b3")
 	)
 	(label "433_P"
-		(at 64.77 181.61 180)
+		(at 91.44 158.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13140,7 +13130,7 @@
 		(uuid "3b34d331-5d33-437c-8a13-90a5ab40abd4")
 	)
 	(label "AGND"
-		(at 64.77 184.15 180)
+		(at 91.44 161.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13159,15 +13149,15 @@
 		)
 		(uuid "41df20e4-ed1b-4fa5-9036-b5f9f0d2998a")
 	)
-	(label "868_A"
-		(at 96.52 163.83 180)
+	(label "AGND"
+		(at 25.4 143.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "582d99d0-ec8a-458d-be44-f6cb5b2bf3d9")
+		(uuid "46f84b4b-e5d5-4653-b2af-ff58b847dd97")
 	)
 	(label "AGND"
 		(at 67.31 59.69 90)
@@ -13209,26 +13199,6 @@
 		)
 		(uuid "781b5d8c-7122-492e-8f50-3132751e64e2")
 	)
-	(label "433_A"
-		(at 96.52 158.75 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7aee13e1-e369-4b2a-9434-3247ec4b893a")
-	)
-	(label "AVDD"
-		(at 147.32 158.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7cbc9bd5-579c-41c8-b21a-062440d74643")
-	)
 	(label "AGND"
 		(at 139.7 85.09 90)
 		(effects
@@ -13240,7 +13210,7 @@
 		(uuid "7fee8538-e0dc-4a40-abec-fe0f741c1d13")
 	)
 	(label "RF_P"
-		(at 115.57 184.15 0)
+		(at 142.24 161.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13319,15 +13289,15 @@
 		)
 		(uuid "af69c235-ce78-459f-bcb5-d28e17397e25")
 	)
-	(label "AGND"
-		(at 96.52 161.29 180)
+	(label "868_A"
+		(at 22.86 143.51 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "b0d02b2c-bbd9-4c2f-9de0-818bbaf15875")
+		(uuid "b61b528c-e118-4d2f-b21b-2181b0b3131e")
 	)
 	(label "AGND"
 		(at 74.93 59.69 90)
@@ -13399,15 +13369,15 @@
 		)
 		(uuid "cb417b1f-c3c8-4f48-b08e-a4d6846ed0a6")
 	)
-	(label "To_Ant"
-		(at 147.32 161.29 0)
+	(label "433_A"
+		(at 30.48 129.54 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "cba749c2-59c4-4256-9cda-ddad289b406e")
+		(uuid "d78774fc-ed80-471d-b3c4-63c3330bf099")
 	)
 	(label "AVDD"
 		(at 74.93 158.75 0)
@@ -13430,7 +13400,7 @@
 		(uuid "df012a93-f5d7-4484-b19d-27378136a3fb")
 	)
 	(label "AVDD"
-		(at 115.57 181.61 0)
+		(at 142.24 158.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15106,138 +15076,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 152.4 163.83 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "28869315-2015-4e1b-a5bd-6f320942b151")
-		(property "Reference" "J9"
-			(at 151.765 158.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MCU"
-			(at 151.765 161.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 152.4 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 152.4 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" ""
-			(at 152.4 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 152.4 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 152.4 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part #" ""
-			(at 152.4 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Name" ""
-			(at 152.4 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7e83ca33-3bd8-4eee-8b21-bcbb590951ef")
-		)
-		(instances
-			(project "CC1101_Multx"
-				(path "/0b029cb4-e3f4-4063-8888-d5f11bf68d4e"
-					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L")
 		(at 139.7 57.15 180)
 		(unit 1)
@@ -15510,7 +15348,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 120.65 186.69 180)
+		(at 147.32 163.83 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15521,7 +15359,7 @@
 		(fields_autoplaced yes)
 		(uuid "3ac6af49-38f5-41bb-a512-bc15d93fdb46")
 		(property "Reference" "J8"
-			(at 120.015 181.61 0)
+			(at 146.685 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15531,7 +15369,7 @@
 			)
 		)
 		(property "Value" "MCU"
-			(at 120.015 184.15 0)
+			(at 146.685 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15541,7 +15379,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 120.65 186.69 0)
+			(at 147.32 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15552,7 +15390,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 186.69 0)
+			(at 147.32 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15563,7 +15401,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 120.65 186.69 0)
+			(at 147.32 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15574,7 +15412,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 120.65 186.69 0)
+			(at 147.32 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15585,7 +15423,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 120.65 186.69 0)
+			(at 147.32 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15596,7 +15434,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 120.65 186.69 0)
+			(at 147.32 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15607,7 +15445,7 @@
 			)
 		)
 		(property "Digikey Part #" ""
-			(at 120.65 186.69 0)
+			(at 147.32 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15618,7 +15456,7 @@
 			)
 		)
 		(property "Part Name" ""
-			(at 120.65 186.69 0)
+			(at 147.32 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18176,7 +18014,7 @@
 	)
 	(symbol
 		(lib_id "New_Library:4259-63")
-		(at 64.77 181.61 0)
+		(at 91.44 158.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18187,7 +18025,7 @@
 		(fields_autoplaced yes)
 		(uuid "b51500c0-6dda-4b33-893c-ef2fe8a02c15")
 		(property "Reference" "U3"
-			(at 90.17 171.45 0)
+			(at 116.84 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18197,7 +18035,7 @@
 			)
 		)
 		(property "Value" "4259-63"
-			(at 90.17 173.99 0)
+			(at 116.84 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18207,7 +18045,7 @@
 			)
 		)
 		(property "Footprint" "Library:SC-70-6_PSM-M"
-			(at 64.77 181.61 0)
+			(at 91.44 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18219,7 +18057,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.psemi.com/pdf/datasheets/pe4259ds.pdf"
-			(at 64.77 181.61 0)
+			(at 91.44 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18231,7 +18069,7 @@
 			)
 		)
 		(property "Description" "https://www.digikey.com/en/products/detail/psemi/4259-63/2614473"
-			(at 64.77 181.61 0)
+			(at 91.44 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18242,7 +18080,7 @@
 			)
 		)
 		(property "Digikey Part #" "1046-1011-1-ND"
-			(at 64.77 181.61 0)
+			(at 91.44 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18253,7 +18091,7 @@
 			)
 		)
 		(property "Part Name" "4259-63"
-			(at 64.77 181.61 0)
+			(at 91.44 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18563,8 +18401,8 @@
 		)
 	)
 	(symbol
-		(lib_id "New_Library:4259-63")
-		(at 96.52 158.75 0)
+		(lib_id "Device:Antenna_Shield")
+		(at 22.86 138.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18573,53 +18411,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cfce5b48-aec6-4273-bf9c-a7249350a027")
-		(property "Reference" "U2"
-			(at 121.92 148.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "4259-63"
-			(at 121.92 151.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "Library:SC-70-6_PSM-M"
-			(at 96.52 158.75 0)
-			(hide yes)
+		(uuid "c49c7c19-e53d-4c37-95da-a70e8cbe32db")
+		(property "Reference" "AE2"
+			(at 26.67 136.5249 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
+				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.psemi.com/pdf/datasheets/pe4259ds.pdf"
-			(at 96.52 158.75 0)
-			(hide yes)
+		(property "Value" "Antenna_Shield"
+			(at 26.67 139.0649 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
+				(justify left)
 			)
 		)
-		(property "Description" "https://www.digikey.com/en/products/detail/psemi/4259-63/2614473"
-			(at 96.52 158.75 0)
+		(property "Footprint" "Library:SMA_CONSMA020_062_G"
+			(at 22.86 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18629,8 +18445,8 @@
 				)
 			)
 		)
-		(property "Digikey Part #" "1046-1011-1-ND"
-			(at 96.52 158.75 0)
+		(property "Datasheet" ""
+			(at 22.86 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18640,8 +18456,8 @@
 				)
 			)
 		)
-		(property "Part Name" "4259-63"
-			(at 96.52 158.75 0)
+		(property "Description" "Antenna with extra pin for shielding"
+			(at 22.86 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18651,28 +18467,71 @@
 				)
 			)
 		)
-		(pin "6"
-			(uuid "31da2e9c-0fbd-4c8c-8378-a47fbb11bedd")
+		(property "LCSC Part #" "C22467594"
+			(at 22.86 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "2"
-			(uuid "53130bff-f055-4e52-9105-58adb8be1259")
+		(property "KLC_S3.3" ""
+			(at 22.86 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 22.86 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "343-CONSMA020.062-G-ND"
+			(at 22.86 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Name" "CONSMA020.062-G"
+			(at 22.86 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "75f02533-6925-47d6-a72b-5e9e1484e3ba")
+			(uuid "7d981821-3f26-4ea0-91c8-5d5137276d4e")
 		)
-		(pin "4"
-			(uuid "e086726f-af08-4b70-ac85-ab50e2f18d06")
-		)
-		(pin "3"
-			(uuid "09d021fc-689f-4efc-8bc5-0b868b708035")
-		)
-		(pin "5"
-			(uuid "3544f564-18a1-497c-b3ca-f26b5425c430")
+		(pin "2"
+			(uuid "51d4c6d4-0101-4f99-98b4-9c9b39bfd395")
 		)
 		(instances
 			(project "CC1101_Multx"
 				(path "/0b029cb4-e3f4-4063-8888-d5f11bf68d4e"
-					(reference "U2")
+					(reference "AE2")
 					(unit 1)
 				)
 			)

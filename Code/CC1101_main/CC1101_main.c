@@ -5,6 +5,7 @@
 #include "hardware/timer.h"
 #include "pico/cyw43_arch.h"
 
+#include "Registers.h" //lista dos registos e afins
 
 
 /*
@@ -104,6 +105,8 @@ uint8_t wifi_innit() {
 //Receiver Channel Filter Bandwidth Programming - pag.35
 
 
+//usar isto para comunicar ISP
+//int spi_write_read_blocking(spi_inst_t *spi, const uint8_t *src, uint8_t *dst, size_t len);
 int main()
 {
     stdio_init_all();

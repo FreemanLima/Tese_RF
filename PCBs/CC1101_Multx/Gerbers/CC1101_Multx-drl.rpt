@@ -1,5 +1,5 @@
 Drill report for CC1101_Multx.kicad_pcb
-Created on 2026-07-15T09:18:04
+Created on 2026-07-29T20:08:31
 
 Copper Layer Stackup:
     =============================================================
@@ -12,10 +12,10 @@ Copper Layer Stackup:
 Drill file 'CC1101_Multx-PTH-drl.gbr' contains
     plated through holes:
     =============================================================
-    T1  0.300mm  0.0118"  (154 holes))
+    T1  0.300mm  0.0118"  (177 holes))
     T2  1.000mm  0.0394"  (12 holes))
 
-    Total plated holes count 166
+    Total plated holes count 189
 
 
 Drill file 'CC1101_Multx-NPTH-drl.gbr' contains

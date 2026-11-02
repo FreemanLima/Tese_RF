@@ -1,0 +1,18 @@
+LTspice 24.1.10 for Windows
+Circuit: C:\Users\diymo\Documents\Uni\Tese\Tese_RF\Sims\Draft1.net
+Start Time: Sun Nov  1 16:31:56 2026
+solver = Normal
+Maximum thread count: 8
+tnom = 27
+temp = 27
+method = trap
+.OP point found by inspection.
+Total elapsed time: 0.033 seconds.
+
+Files loaded:
+C:\Users\diymo\Documents\Uni\Tese\Tese_RF\Sims\Draft1.net
+C:\Users\diymo\Documents\LTspice\coilcraft_0805_inductors_ltspice.lib
+C:\Users\diymo\Documents\LTspice\GRM0225C0J111GA02_DC0V_25degC.mod
+C:\Users\diymo\Documents\LTspice\GRM0332C1E5R7BA01_DC0V_20degC.mod
+C:\Users\diymo\Downloads\GRM0332C1E270GA01_DC0V_20degC.mod
+
